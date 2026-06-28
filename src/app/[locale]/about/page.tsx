@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
 import { ArrowRight } from 'lucide-react'
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
+import { Flag } from '@/components/icons/Flag'
 
 const SITE = 'https://albionexports.com'
 
@@ -49,6 +50,14 @@ const memberPhotos: Record<string, string> = {
   founder: '/team/founder.jpg',
   cofounder: '/team/cofounder.jpg',
   qc: '/team/qc.jpg',
+}
+
+// Nationality flag shown beside each member's name
+const memberFlags: Record<string, 'gb' | 'ps' | 'de'> = {
+  founder: 'gb',
+  cofounder: 'gb',
+  qc: 'ps',
+  germany: 'de',
 }
 const factKeys = ['name', 'type', 'uscc', 'domicile', 'bank'] as const
 
@@ -117,8 +126,9 @@ export default async function AboutPage({
               />
             </div>
             <div className="flex flex-col justify-center p-5 sm:flex-1 sm:p-8">
-              <h3 className="text-xl font-semibold text-navy-900">
+              <h3 className="flex items-center gap-2 text-xl font-semibold text-navy-900">
                 {t('team.members.founder.name')}
+                <Flag code={memberFlags.founder} />
               </h3>
               <div className="mt-1 text-xs uppercase tracking-[0.16em] text-navy-600">
                 {t('team.members.founder.role')}
@@ -149,8 +159,9 @@ export default async function AboutPage({
                     </div>
                   )}
                   <div className="p-5 sm:p-6">
-                  <h3 className="text-lg font-semibold text-navy-900">
+                  <h3 className="flex items-center gap-2 text-lg font-semibold text-navy-900">
                     {t(`team.members.${k}.name`)}
+                    {memberFlags[k] && <Flag code={memberFlags[k]} />}
                   </h3>
                   <div className="mt-1 text-xs uppercase tracking-[0.16em] text-navy-600">
                     {t(`team.members.${k}.role`)}
