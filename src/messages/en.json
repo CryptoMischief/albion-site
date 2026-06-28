@@ -1,0 +1,282 @@
+{
+  "Meta": {
+    "title": "Albion Exports — Your sourcing partner in China",
+    "description": "British-owned, Chinese-licensed sourcing company. We source, verify and ship from China for buyers worldwide. Founders on the ground."
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "What we source",
+    "process": "How we work",
+    "contact": "Contact",
+    "languageToggle": "中文"
+  },
+  "Hero": {
+    "eyebrow": "British-owned · Chinese-licensed",
+    "headline": "Your sourcing partner in China.",
+    "sub": "We source, verify and ship from China for buyers worldwide — backed by a British-owned company with founders on the ground.",
+    "ctaPrimary": "Request a quote",
+    "ctaSecondary": "What we source",
+    "photoCredit": "Photo: container vessel Houston Express at Hamburg Burchardkai"
+  },
+  "Trust": {
+    "title": "Why work with us",
+    "items": {
+      "owned": {
+        "title": "British-owned, Chinese-licensed",
+        "body": "A foreign-owned company registered in China with full import and export rights. British ownership, direct accountability."
+      },
+      "ground": {
+        "title": "Founders on the ground",
+        "body": "Supplier meetings, factory visits and quality checks are run by the founders in person in China. Not outsourced. Not relayed."
+      },
+      "verify": {
+        "title": "Verified before shipping",
+        "body": "Sample review, factory audit and pre-shipment inspection on every order. No surprises when your cargo arrives."
+      },
+      "global": {
+        "title": "Shipped worldwide",
+        "body": "Export documentation and freight to your nearest port or warehouse, wherever you trade."
+      }
+    }
+  },
+  "Scope": {
+    "eyebrow": "What we source",
+    "title": "Consumer goods across categories.",
+    "intro": "Tell us the product, the spec, the volume and the target price. We come back with a vetted supplier and a price you can build a margin on.",
+    "categories": {
+      "pet": {
+        "title": "Pet food & supplies",
+        "body": "Food, treats, toys and accessories — premium and everyday SKUs."
+      },
+      "sports": {
+        "title": "Sports & outdoor",
+        "body": "Apparel, fitness equipment, outdoor gear and accessories."
+      },
+      "household": {
+        "title": "Household & daily goods",
+        "body": "Kitchenware, cleaning, organisation and daily consumables."
+      },
+      "furniture": {
+        "title": "Furniture parts & fittings",
+        "body": "Components, hardware, fittings and finishings."
+      },
+      "electronics": {
+        "title": "Consumer electronics",
+        "body": "Smart in-vehicle, small electronics and accessories."
+      },
+      "adjacent": {
+        "title": "And more",
+        "body": "Stationery, luggage, security, gifting — ask us."
+      }
+    }
+  },
+  "Process": {
+    "eyebrow": "How we work",
+    "title": "Four steps, one accountable partner.",
+    "steps": {
+      "brief": {
+        "n": "01",
+        "title": "Brief",
+        "body": "Specs, target price, certification, lead times. We capture once and reuse."
+      },
+      "source": {
+        "n": "02",
+        "title": "Source",
+        "body": "Shortlist of vetted suppliers with side-by-side quotes."
+      },
+      "verify": {
+        "n": "03",
+        "title": "Verify",
+        "body": "Factory visits, sample review and pre-shipment inspection."
+      },
+      "ship": {
+        "n": "04",
+        "title": "Ship",
+        "body": "Production tracking, export documentation and freight handover."
+      }
+    }
+  },
+  "Coverage": {
+    "eyebrow": "Reach",
+    "title": "Sourced in China. Shipped worldwide.",
+    "body": "Our buyers are based across the UK, Europe and further afield. We handle export from China and freight to your destination — wherever you trade."
+  },
+  "Contact": {
+    "eyebrow": "Get in touch",
+    "title": "Request a quote.",
+    "body": "Tell us what you're sourcing and when you need it. We respond within 24 hours.",
+    "emailCta": "hello@albionexports.com",
+    "fullPageHeadline": "Tell us what you're sourcing.",
+    "fullPageSub": "Fill in what you can — we'll come back with vetted supplier options and pricing within 24 hours."
+  },
+  "Footer": {
+    "company": "Hefei Anbilong Import & Export Trading Co., Ltd.",
+    "usccLabel": "USCC",
+    "icpPlaceholder": "ICP filing pending",
+    "copyright": "© 2026 Albion Exports. All rights reserved.",
+    "address": "Hefei, Anhui Province, China"
+  },
+  "About": {
+    "eyebrow": "About",
+    "headline": "A UK-China bridge for global buyers.",
+    "intro": "Albion Exports is a British-owned trading company registered in China. We exist to take the risk out of sourcing from Chinese manufacturers — verifying suppliers in person, handling export, and delivering to buyers across the UK, Europe and beyond.",
+    "story": {
+      "title": "Why we exist",
+      "body": "Buyers want China's price and scale without the risk of unverified suppliers, miscommunication, or shipments that don't match the brief. Albion was founded by a British national resident in Hefei, China — bridging both sides of that conversation. We carry the procurement, verification and export load so our buyers don't have to."
+    },
+    "facts": {
+      "title": "Company facts",
+      "items": {
+        "name": {
+          "label": "Legal name",
+          "value": "Hefei Anbilong Import & Export Trading Co., Ltd."
+        },
+        "type": {
+          "label": "Type",
+          "value": "Limited liability company, wholly owned by a foreign natural person"
+        },
+        "uscc": {
+          "label": "Unified Social Credit Code",
+          "value": "91340100MAKET1LP5K"
+        },
+        "domicile": {
+          "label": "Registered office",
+          "value": "Hefei, Anhui Province, China"
+        },
+        "bank": {
+          "label": "Bank",
+          "value": "ICBC Hefei Binhu Sub-branch — RMB, USD, GBP, EUR accounts"
+        }
+      }
+    },
+    "team": {
+      "title": "Team",
+      "intro": "A founding team split between the UK and on the ground in China.",
+      "members": {
+        "founder": {
+          "name": "Richard Cormack (罗瑞奇)",
+          "role": "Founder · Legal representative",
+          "body": "British national with Chinese permanent residence. Resident in Hefei. Runs sourcing, supplier verification and customer relationships on the ground in China. CIM-certified."
+        },
+        "cofounder": {
+          "name": "Richard John",
+          "role": "Co-founder",
+          "body": "UK-based co-founder. Leads UK buyer engagement and channel development."
+        },
+        "qc": {
+          "name": "Qosay",
+          "role": "Quality Control",
+          "body": "Trilingual. Runs product inspection, factory audits and pre-shipment quality control alongside the founders."
+        },
+        "germany": {
+          "name": "Torben",
+          "role": "German channel",
+          "body": "Logistics and distribution lead for the German and wider EU market."
+        }
+      }
+    }
+  },
+  "Services": {
+    "eyebrow": "What we source",
+    "headline": "Consumer goods across categories — verified at source.",
+    "intro": "We work across our full licensed scope, generalised as consumer goods. Below is what buyers most often ask us for. If your category isn't listed, ask — most of what's tradeable in China sits within our scope.",
+    "categories": {
+      "pet": {
+        "title": "Pet food & supplies",
+        "body": "Pet food, treats, toys, accessories, beds, leashes, feeders. Both premium and everyday SKUs. We work with manufacturers carrying export certifications for the UK and EU pet markets.",
+        "examples": "Examples: dry food, wet food, treats, chew toys, leashes, harnesses, beds, feeders, water fountains."
+      },
+      "sports": {
+        "title": "Sports & outdoor",
+        "body": "Sports apparel, fitness equipment, outdoor gear, accessories. Suitable for retail, gym distribution, or branded white-label.",
+        "examples": "Examples: yoga mats, resistance bands, dumbbells, gym apparel, outdoor jackets, camping gear, water bottles, sports bags."
+      },
+      "household": {
+        "title": "Household & daily goods",
+        "body": "Kitchenware, cleaning, organisation, daily consumables. Volume categories with strong manufacturer choice across China.",
+        "examples": "Examples: kitchenware sets, cleaning supplies, storage and organisation, towels, bedding basics, daily disposables."
+      },
+      "furniture": {
+        "title": "Furniture parts & fittings",
+        "body": "Components, hardware, fittings, finishings. Both finished products and parts for buyers manufacturing or assembling locally.",
+        "examples": "Examples: hinges, drawer slides, handles, knobs, brackets, glass tops, fabric panels, finished modular pieces."
+      },
+      "electronics": {
+        "title": "Consumer electronics",
+        "body": "Smart in-vehicle equipment, small consumer electronics, accessories. We handle the certification side (CE, UKCA, FCC) up front so buyers don't have to.",
+        "examples": "Examples: dashcams, car chargers, phone accessories, audio accessories, wearable accessories, small smart-home devices."
+      },
+      "adjacent": {
+        "title": "Adjacent categories",
+        "body": "Stationery, luggage, gifting, security and protection equipment, arts and crafts. If you're sourcing something consumer-facing, ask.",
+        "examples": "Examples: stationery sets, luggage, backpacks, branded gifting, security devices, decorative items."
+      }
+    },
+    "outOfScope": {
+      "title": "What we don't do",
+      "items": {
+        "food": "Human food products requiring refrigerated import chains.",
+        "pharma": "Pharmaceuticals or anything requiring medical-device approval.",
+        "ivory": "Ivory products (excluded by licence and policy)."
+      }
+    }
+  },
+  "ContactPage": {
+    "eyebrow": "Get in touch",
+    "headline": "Tell us what you're sourcing.",
+    "sub": "Fill in what you can — even an incomplete brief is enough to start. We'll come back with vetted supplier options and indicative pricing within 24 hours.",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "company": "Company",
+      "country": "Country / market",
+      "product": "Product or category",
+      "quantity": "Approximate quantity",
+      "targetPrice": "Target price (per unit)",
+      "message": "Anything else we should know",
+      "submit": "Send enquiry",
+      "submitting": "Sending…",
+      "success": "Got it — we'll reply within 24 hours.",
+      "error": "Something went wrong. Email hello@albionexports.com directly and we'll pick it up."
+    },
+    "alt": {
+      "title": "Prefer email?",
+      "body": "Reach us directly at hello@albionexports.com. We reply within 24 hours during China business hours (GMT+8)."
+    }
+  },
+  "SourcingNow": {
+    "eyebrow": "Live sourcing",
+    "title": "What we're sourcing right now.",
+    "intro": "Active supplier searches running this month. If you buy in these categories — or want to join a search already underway — get in touch.",
+    "cta": "Join this search",
+    "items": {
+      "displays": {
+        "title": "Retail display screens",
+        "spec": "32–55\" commercial LCD, wall & freestanding, Android media player built in",
+        "status": "Vetting suppliers"
+      },
+      "pet": {
+        "title": "Pet supplies",
+        "spec": "Premium dry treats, toys & accessories — UK/EU compliant labelling",
+        "status": "Shortlisting factories"
+      },
+      "sports": {
+        "title": "Sports & outdoor",
+        "spec": "Gym accessories & resistance equipment, white-label ready",
+        "status": "Open for briefs"
+      }
+    },
+    "disclaimer": "Categories rotate as deals progress. Your brief can open a new search.",
+    "progressLabel": "Search progress"
+  },
+  "QuickBrief": {
+    "title": "Start here — tell us the product",
+    "placeholder": "e.g. 43\" digital signage screen",
+    "emailPlaceholder": "Your email",
+    "submit": "Get supplier options",
+    "sending": "Sending…",
+    "success": "Got it — we'll come back within 24 hours.",
+    "error": "Didn't send — use the contact page instead."
+  }
+}
