@@ -5,6 +5,7 @@ import { LanguageToggle } from './LanguageToggle'
 import { MobileMenu } from './MobileMenu'
 import { WhatsAppIcon } from '@/components/icons/WhatsAppIcon'
 import { LinkedInIcon } from '@/components/icons/LinkedInIcon'
+import { InstagramIcon } from '@/components/icons/InstagramIcon'
 import type { Region } from '@/lib/region'
 
 export async function Header({ region }: { region: Region }) {
@@ -37,6 +38,15 @@ export async function Header({ region }: { region: Region }) {
               className="inline-flex size-9 items-center justify-center rounded-full text-navy-700 transition-colors hover:bg-navy-50 hover:text-navy-900"
             >
               <WhatsAppIcon className="size-4.5" />
+            </a>
+            <a
+              href="https://www.instagram.com/albionexports/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="inline-flex size-9 items-center justify-center rounded-full text-navy-700 transition-colors hover:bg-navy-50 hover:text-navy-900"
+            >
+              <InstagramIcon className="size-4.5" />
             </a>
           </div>
           <span className="hidden text-xs uppercase tracking-wide text-mute sm:inline">

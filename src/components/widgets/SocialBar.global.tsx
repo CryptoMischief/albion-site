@@ -4,9 +4,9 @@
 const links = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/company/albion-exports/' },
   { label: 'WhatsApp', href: 'https://api.whatsapp.com/send?phone=447732506459' },
+  { label: 'Instagram', href: 'https://www.instagram.com/albionexports/' },
   // TODO: wire the rest as accounts come online (S2-04)
   // { label: 'X', href: 'https://x.com/...' },
-  // { label: 'Instagram', href: 'https://www.instagram.com/...' },
 ]
 
 export function SocialBarGlobal() {
