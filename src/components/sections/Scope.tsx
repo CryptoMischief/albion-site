@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { getTranslations } from 'next-intl/server'
+import { Link } from '@/i18n/navigation'
 
 const categories = [
   { key: 'pet', img: '/cats/pet.jpg' },
@@ -29,8 +30,9 @@ export async function Scope() {
 
         <div className="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 lg:grid-cols-3">
           {categories.map(({ key, img }) => (
-            <div
+            <Link
               key={key}
+              href={`/products?category=${key}`}
               className="group relative isolate flex min-h-56 flex-col justify-end overflow-hidden rounded-2xl shadow-sm transition-shadow hover:shadow-lg sm:min-h-64"
             >
               <Image
@@ -52,7 +54,7 @@ export async function Scope() {
                   </p>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

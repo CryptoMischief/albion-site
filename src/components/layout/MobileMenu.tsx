@@ -12,7 +12,6 @@ import { InstagramIcon } from '@/components/icons/InstagramIcon'
 const links = [
   { href: '/about', key: 'about' as const },
   { href: '/services', key: 'services' as const },
-  { href: '/products', key: 'products' as const },
   { href: '/contact', key: 'contact' as const },
 ]
 

@@ -98,9 +98,10 @@ export default async function ServicesPage({
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
           <div className="grid gap-5 md:grid-cols-2">
             {categories.map(({ key, Icon }) => (
-              <article
+              <Link
                 key={key}
-                className="group rounded-3xl border border-navy-100 bg-white p-6 shadow-sm transition-all hover:border-navy-300 hover:shadow-md sm:p-8"
+                href={`/products?category=${key}`}
+                className="group block rounded-3xl border border-navy-100 bg-white p-6 shadow-sm transition-all hover:border-navy-300 hover:shadow-md sm:p-8"
               >
                 <div className="flex size-12 items-center justify-center rounded-xl bg-navy-50 text-navy-800 transition-colors group-hover:bg-navy-800 group-hover:text-white">
                   <Icon className="size-6" />
@@ -114,7 +115,7 @@ export default async function ServicesPage({
                 <p className="mt-4 rounded-xl bg-paper p-4 text-xs leading-relaxed text-navy-700 sm:text-sm">
                   {t(`categories.${key}.examples`)}
                 </p>
-              </article>
+              </Link>
             ))}
           </div>
         </div>
