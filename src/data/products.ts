@@ -1,8 +1,7 @@
 // Albion product library.
 // To add a product: append one object below. NO supplier name/contact/location —
 // the source is our edge. `category` MUST match a "What we source" category key
-// (pet | sports | household | furniture | electronics | adjacent) so the homepage
-// and Services category cards link straight to it.
+// (pet | sports | household | furniture | electronics | adjacent).
 
 export type Locale = 'en' | 'zh'
 
@@ -13,7 +12,8 @@ export type Product = {
   blurb: Record<Locale, string>
   specs: { label: Record<Locale, string>; value: string }[]
   certs: string[]
-  images: string[] // first = cover; rest = gallery
+  images: string[] // first = cover; rest = carousel
+  video?: string
   moq?: string
 }
 
@@ -58,5 +58,32 @@ export const products: Product[] = [
       '/products/iceenergy/cooler-3.jpg',
       '/products/iceenergy/cooler-4.jpg',
     ],
+    video: '/products/iceenergy/cooler-video.mp4',
+  },
+  {
+    slug: 'ac-powered-cooler',
+    category: 'sports',
+    name: { en: 'AC-Powered Wheeled Cooler', zh: '插电式拉杆冷藏箱' },
+    blurb: {
+      en: 'A 2-in-1 rotomoulded cool box with a built-in electric cooling unit — keeps contents cold for up to 72 hours, with wheels and a retractable pull handle. For premium outdoor, camping and overlanding retail.',
+      zh: '2 合 1 滚塑保温箱，内置电制冷模块——最长可保冷 72 小时，配拉杆与滚轮。适用于高端户外、露营与自驾零售。',
+    },
+    specs: [
+      {
+        label: { en: 'Type', zh: '类型' },
+        value: 'Rotomoulded cooler + electric cooling (2-in-1)',
+      },
+      { label: { en: 'Cooling', zh: '制冷' }, value: 'Up to 72 hours cold' },
+      {
+        label: { en: 'Features', zh: '功能' },
+        value: '3 airflow modes · wheels + pull handle · USB charging box',
+      },
+      {
+        label: { en: 'Customisation', zh: '定制' },
+        value: 'OEM / ODM · your branding',
+      },
+    ],
+    certs: ['CE', 'FCC', 'KC', 'BSCI', 'SGS'],
+    images: ['/products/iceenergy/cooler-ac-1.jpg'],
   },
 ]

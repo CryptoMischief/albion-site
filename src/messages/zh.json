@@ -70,7 +70,8 @@
         "title": "更多品类",
         "body": "文具、箱包、安防、礼品 — 欢迎咨询。"
       }
-    }
+    },
+    "viewProducts": "查看产品"
   },
   "Process": {
     "eyebrow": "服务流程",
@@ -221,7 +222,8 @@
         "pharma": "药品或需要医疗器械审批的产品。",
         "ivory": "象牙制品(执照与政策双重排除)。"
       }
-    }
+    },
+    "viewProducts": "查看产品"
   },
   "ContactPage": {
     "eyebrow": "联系我们",

@@ -115,6 +115,10 @@ export default async function ServicesPage({
                 <p className="mt-4 rounded-xl bg-paper p-4 text-xs leading-relaxed text-navy-700 sm:text-sm">
                   {t(`categories.${key}.examples`)}
                 </p>
+                <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-navy-800 group-hover:text-navy-900">
+                  {t('viewProducts')}
+                  <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+                </span>
               </Link>
             ))}
           </div>

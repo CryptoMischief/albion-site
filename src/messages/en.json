@@ -70,7 +70,8 @@
         "title": "And more",
         "body": "Stationery, luggage, security, gifting — ask us."
       }
-    }
+    },
+    "viewProducts": "View products"
   },
   "Process": {
     "eyebrow": "How we work",
@@ -221,7 +222,8 @@
         "pharma": "Pharmaceuticals or anything requiring medical-device approval.",
         "ivory": "Ivory products (excluded by licence and policy)."
       }
-    }
+    },
+    "viewProducts": "View products"
   },
   "ContactPage": {
     "eyebrow": "Get in touch",

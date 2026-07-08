@@ -52,6 +52,10 @@ export async function Scope() {
                   <p className="mt-1.5 text-sm leading-relaxed text-white/90">
                     {t(`categories.${key}.body`)}
                   </p>
+                  <span className="mt-3 inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wide text-white/90">
+                    {t('viewProducts')}
+                    <span className="transition-transform group-hover:translate-x-0.5">→</span>
+                  </span>
                 </div>
               </div>
             </Link>

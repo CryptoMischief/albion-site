@@ -78,6 +78,17 @@ function ProductCard({
             ))}
           </div>
         )}
+        {p.video && (
+          <video
+            controls
+            playsInline
+            preload="metadata"
+            poster={p.images[0]}
+            className="mt-4 w-full rounded-xl"
+          >
+            <source src={p.video} type="video/mp4" />
+          </video>
+        )}
         <Link
           href={`/contact?product=${encodeURIComponent(p.name.en)}`}
           className="group mt-5 inline-flex h-10 items-center justify-center gap-1.5 self-start rounded-full bg-navy-900 px-4 text-sm font-semibold text-white transition-colors hover:bg-navy-800"
