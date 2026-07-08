@@ -9,7 +9,8 @@
     "services": "What we source",
     "process": "How we work",
     "contact": "Contact",
-    "languageToggle": "中文"
+    "languageToggle": "中文",
+    "products": "Products"
   },
   "Hero": {
     "eyebrow": "British-owned · Chinese-licensed",
@@ -36,7 +37,7 @@
       },
       "global": {
         "title": "Your team in China",
-        "body": "We negotiate, manage suppliers and follow production on the ground — one accountable partner, so you don't run China from afar."
+        "body": "In effect, your China office. We negotiate, manage suppliers and follow production on the ground — one accountable partner, so you don't run China from afar."
       }
     }
   },
@@ -278,5 +279,14 @@
     "sending": "Sending…",
     "success": "Got it — we'll come back within 24 hours.",
     "error": "Didn't send — use the contact page instead."
+  },
+  "Products": {
+    "eyebrow": "Products",
+    "headline": "Products we can supply.",
+    "intro": "A growing selection from factories we've vetted on the ground in China. Available OEM or ODM with your own branding. See something you want? Enquire and we handle the rest.",
+    "enquire": "Enquire",
+    "customLabel": "Customisation",
+    "certsLabel": "Certifications",
+    "empty": "More products added as we vet them at trade shows and factory visits."
   }
 }
