@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Albion Exports — Your procurement team in China",
-    "description": "British-owned, China-based procurement partner. We verify factories, negotiate pricing, run quality control and manage production and shipping — your purchasing office in China."
+    "title": "Albion Exports — Your sourcing partner in China",
+    "description": "British-owned, China-based sourcing partner. We verify factories, negotiate pricing, run quality control and manage production and shipping — your team on the ground in China."
   },
   "Nav": {
     "home": "Home",
@@ -13,8 +13,8 @@
   },
   "Hero": {
     "eyebrow": "British-owned · Chinese-licensed",
-    "headline": "Your procurement partner in China.",
-    "sub": "We act as your purchasing office in China — verifying factories, negotiating pricing, running quality control and managing production, so you buy safely and efficiently.",
+    "headline": "Your sourcing partner in China.",
+    "sub": "We're your team on the ground in China — verifying factories, negotiating pricing, running quality control and managing production, so you buy safely and efficiently.",
     "ctaPrimary": "Request a quote",
     "ctaSecondary": "What we source",
     "photoCredit": "Photo: container vessel Houston Express at Hamburg Burchardkai"
