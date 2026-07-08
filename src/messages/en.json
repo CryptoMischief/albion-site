@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Albion Exports — Your sourcing partner in China",
-    "description": "British-owned, Chinese-licensed sourcing company. We source, verify and ship from China for buyers worldwide. Founders on the ground."
+    "title": "Albion Exports — Your procurement team in China",
+    "description": "British-owned, China-based procurement partner. We verify factories, negotiate pricing, run quality control and manage production and shipping — your purchasing office in China."
   },
   "Nav": {
     "home": "Home",
@@ -13,30 +13,30 @@
   },
   "Hero": {
     "eyebrow": "British-owned · Chinese-licensed",
-    "headline": "Your sourcing partner in China.",
-    "sub": "We source, verify and ship from China for buyers worldwide — backed by a British-owned company with founders on the ground.",
+    "headline": "Your procurement partner in China.",
+    "sub": "We act as your purchasing office in China — verifying factories, negotiating pricing, running quality control and managing production, so you buy safely and efficiently.",
     "ctaPrimary": "Request a quote",
     "ctaSecondary": "What we source",
     "photoCredit": "Photo: container vessel Houston Express at Hamburg Burchardkai"
   },
   "Trust": {
-    "title": "Why work with us",
+    "title": "Why buyers work with us",
     "items": {
       "owned": {
         "title": "British-owned, Chinese-licensed",
-        "body": "A foreign-owned company registered in China with full import and export rights. British ownership, direct accountability."
+        "body": "A foreign-owned company registered in China with full import and export rights. British accountability, local execution."
       },
       "ground": {
         "title": "Founders on the ground",
-        "body": "Supplier meetings, factory visits and quality checks are run by the founders in person in China. Not outsourced. Not relayed."
+        "body": "Factory visits, negotiations and quality checks run in person in China — not outsourced, not relayed."
       },
       "verify": {
-        "title": "Verified before shipping",
-        "body": "Sample review, factory audit and pre-shipment inspection on every order. No surprises when your cargo arrives."
+        "title": "Verified before you commit",
+        "body": "Factory audit, sample review and pre-shipment inspection on every order. Your sourcing risk, managed."
       },
       "global": {
-        "title": "Shipped worldwide",
-        "body": "Export documentation and freight to your nearest port or warehouse, wherever you trade."
+        "title": "Your team in China",
+        "body": "We negotiate, manage suppliers and follow production on the ground — one accountable partner, so you don't run China from afar."
       }
     }
   },
@@ -82,8 +82,8 @@
       },
       "source": {
         "n": "02",
-        "title": "Source",
-        "body": "Shortlist of vetted suppliers with side-by-side quotes."
+        "title": "Source & negotiate",
+        "body": "A shortlist of vetted factories, side-by-side quotes — and we negotiate the price for you."
       },
       "verify": {
         "n": "03",
@@ -92,8 +92,8 @@
       },
       "ship": {
         "n": "04",
-        "title": "Ship",
-        "body": "Production tracking, export documentation and freight handover."
+        "title": "Manage & ship",
+        "body": "Production tracking, quality control, export documentation and freight to your door."
       }
     }
   },
