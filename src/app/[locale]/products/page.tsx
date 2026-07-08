@@ -83,10 +83,9 @@ function ProductCard({
             controls
             playsInline
             preload="metadata"
-            poster={p.images[0]}
             className="mt-4 w-full rounded-xl"
           >
-            <source src={p.video} type="video/mp4" />
+            <source src={`${p.video}#t=0.1`} type="video/mp4" />
           </video>
         )}
         <Link
