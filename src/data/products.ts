@@ -58,25 +58,28 @@ export const products: Product[] = [
       '/products/iceenergy/cooler-3.jpg',
       '/products/iceenergy/cooler-4.jpg',
     ],
-    video: '/products/iceenergy/cooler-video.mp4',
   },
   {
-    slug: 'ac-powered-cooler',
+    slug: 'cooler-air-con',
     category: 'sports',
-    name: { en: 'AC-Powered Wheeled Cooler', zh: '插电式拉杆冷藏箱' },
+    name: { en: '2-in-1 Cool Box & Portable Air-Con', zh: '2 合 1 保温箱 & 便携空调' },
     blurb: {
-      en: 'A 2-in-1 rotomoulded cool box with a built-in electric cooling unit — keeps contents cold for up to 72 hours, with wheels and a retractable pull handle. For premium outdoor, camping and overlanding retail.',
-      zh: '2 合 1 滚塑保温箱，内置电制冷模块——最长可保冷 72 小时，配拉杆与滚轮。适用于高端户外、露营与自驾零售。',
+      en: 'A dual-function outdoor unit: a 50 L insulated cool box that keeps drinks and food cold, PLUS a built-in portable air conditioner that blows cold air — and a cooling mist — at you. The electric side cools people, not the contents. Wheels and a retractable pull handle. For camping, festivals, tailgating and the beach.',
+      zh: '2 合 1 户外设备：50 L 保温箱保持饮料与食物冰凉，另配内置便携空调，向人吹送冷风与冷雾——电制冷用于给人降温，而非冷藏箱内部。配拉杆与滚轮。适用于露营、音乐节、看台与沙滩。',
     },
     specs: [
       {
         label: { en: 'Type', zh: '类型' },
-        value: 'Rotomoulded cooler + electric cooling (2-in-1)',
+        value: '2-in-1 — cool box + portable air-con',
       },
-      { label: { en: 'Cooling', zh: '制冷' }, value: 'Up to 72 hours cold' },
       {
-        label: { en: 'Features', zh: '功能' },
-        value: '3 airflow modes · wheels + pull handle · USB charging box',
+        label: { en: 'Air-con', zh: '空调' },
+        value: 'Cools people (not the contents) · 3 modes: cold wind · air · mist',
+      },
+      { label: { en: 'Cool box', zh: '保温箱' }, value: '50 L insulated storage' },
+      {
+        label: { en: 'Mobility', zh: '移动' },
+        value: '6" wheels + pull handle · rechargeable battery box',
       },
       {
         label: { en: 'Customisation', zh: '定制' },
@@ -84,6 +87,12 @@ export const products: Product[] = [
       },
     ],
     certs: ['CE', 'FCC', 'KC', 'BSCI', 'SGS'],
-    images: ['/products/iceenergy/cooler-ac-1.jpg'],
+    images: [
+      '/products/iceenergy/cooler-ac-1.jpg',
+      '/products/iceenergy/cooler-ac-2.jpg',
+      '/products/iceenergy/cooler-ac-3.jpg',
+      '/products/iceenergy/cooler-ac-4.jpg',
+    ],
+    video: '/products/iceenergy/ac-cooler-video.mp4',
   },
 ]
