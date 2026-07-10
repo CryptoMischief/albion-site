@@ -17,6 +17,7 @@ export async function Header({ region }: { region: Region }) {
         <nav className="hidden items-center gap-8 text-sm font-medium text-navy-800 md:flex">
           <Link href="/about" className="hover:text-navy-600">{t('about')}</Link>
           <Link href="/services" className="hover:text-navy-600">{t('services')}</Link>
+          <Link href="/oem" className="hover:text-navy-600">{t('oem')}</Link>
           <Link href="/contact" className="hover:text-navy-600">{t('contact')}</Link>
         </nav>
         <div className="flex items-center gap-3">

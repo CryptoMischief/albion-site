@@ -19,7 +19,7 @@ export async function Hero() {
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-navy-900/95 via-navy-900/80 to-navy-800/60" />
       <div className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-900/95 via-transparent to-transparent" />
 
-      <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24 md:py-32 lg:py-40">
+      <div className="mx-auto max-w-6xl px-4 pt-20 pb-12 sm:px-6 sm:pt-24 sm:pb-14 md:pt-32 md:pb-20 lg:pt-40 lg:pb-24">
         <div className="grid items-center gap-10 md:grid-cols-12 md:gap-8">
           {/* Logo — single instance, repositioned via grid order. Above text on
               mobile (small), right column on desktop (large). */}

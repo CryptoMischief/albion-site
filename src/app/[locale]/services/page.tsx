@@ -8,7 +8,7 @@ import {
   Home,
   Sofa,
   Cpu,
-  Package,
+  Bot,
   ArrowRight,
   X,
 } from 'lucide-react'
@@ -51,12 +51,12 @@ export async function generateMetadata({
 }
 
 const categories = [
-  { key: 'pet', Icon: PawPrint },
   { key: 'sports', Icon: Dumbbell },
+  { key: 'robotics', Icon: Bot },
+  { key: 'pet', Icon: PawPrint },
   { key: 'household', Icon: Home },
   { key: 'furniture', Icon: Sofa },
   { key: 'electronics', Icon: Cpu },
-  { key: 'adjacent', Icon: Package },
 ] as const
 
 const outOfScopeKeys = ['food', 'pharma', 'ivory'] as const

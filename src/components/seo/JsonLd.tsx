@@ -1,3 +1,5 @@
+import { categoryLabels, type Locale, type Product } from '@/data/products'
+
 const SITE_URL = 'https://albionexports.com'
 
 const ORG_BASE = {
@@ -77,6 +79,39 @@ export function OrganizationJsonLd() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }}
       />
     </>
+  )
+}
+
+export function ProductJsonLd({
+  product,
+  locale,
+  url,
+}: {
+  product: Product
+  locale: Locale
+  url: string
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name[locale],
+    description: product.blurb[locale],
+    image: product.images.map((i) => `${SITE_URL}${i}`),
+    category: categoryLabels[product.category][locale],
+    sku: product.slug,
+    brand: { '@type': 'Brand', name: 'Albion Exports' },
+    url,
+    additionalProperty: product.specs.map((s) => ({
+      '@type': 'PropertyValue',
+      name: s.label[locale],
+      value: s.value,
+    })),
+  }
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
   )
 }
 

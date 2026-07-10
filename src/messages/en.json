@@ -10,7 +10,8 @@
     "process": "How we work",
     "contact": "Contact",
     "languageToggle": "中文",
-    "products": "Products"
+    "products": "Products",
+    "oem": "OEM"
   },
   "Hero": {
     "eyebrow": "British-owned · Chinese-licensed",
@@ -46,13 +47,17 @@
     "title": "Consumer goods across categories.",
     "intro": "Tell us the product, the spec, the volume and the target price. We come back with a vetted supplier and a price you can build a margin on.",
     "categories": {
-      "pet": {
-        "title": "Pet food & supplies",
-        "body": "Food, treats, toys and accessories — premium and everyday SKUs."
-      },
       "sports": {
         "title": "Sports & outdoor",
         "body": "Apparel, fitness equipment, outdoor gear and accessories."
+      },
+      "robotics": {
+        "title": "Robotics & automation",
+        "body": "Service robots, automation and smart machines from China's fast-moving robotics sector."
+      },
+      "pet": {
+        "title": "Pet food & supplies",
+        "body": "Food, treats, toys and accessories — premium and everyday SKUs."
       },
       "household": {
         "title": "Household & daily goods",
@@ -65,10 +70,6 @@
       "electronics": {
         "title": "Consumer electronics",
         "body": "Smart in-vehicle, small electronics and accessories."
-      },
-      "adjacent": {
-        "title": "And more",
-        "body": "Stationery, luggage, security, gifting — ask us."
       }
     },
     "viewProducts": "View products"
@@ -184,15 +185,20 @@
     "headline": "Consumer goods across categories — verified at source.",
     "intro": "We work across our full licensed scope, generalised as consumer goods. Below is what buyers most often ask us for. If your category isn't listed, ask — most of what's tradeable in China sits within our scope.",
     "categories": {
-      "pet": {
-        "title": "Pet food & supplies",
-        "body": "Pet food, treats, toys, accessories, beds, leashes, feeders. Both premium and everyday SKUs. We work with manufacturers carrying export certifications for the UK and EU pet markets.",
-        "examples": "Examples: dry food, wet food, treats, chew toys, leashes, harnesses, beds, feeders, water fountains."
-      },
       "sports": {
         "title": "Sports & outdoor",
         "body": "Sports apparel, fitness equipment, outdoor gear, accessories. Suitable for retail, gym distribution, or branded white-label.",
         "examples": "Examples: yoga mats, resistance bands, dumbbells, gym apparel, outdoor jackets, camping gear, water bottles, sports bags."
+      },
+      "robotics": {
+        "title": "Robotics & automation",
+        "body": "Service robots, robotic components and factory automation from China's fastest-growing robotics sector. We visit the makers in person and verify capability before we introduce them.",
+        "examples": "Examples: service and cleaning robots, robotic arms and components, automation modules, sensors, smart machines."
+      },
+      "pet": {
+        "title": "Pet food & supplies",
+        "body": "Pet food, treats, toys, accessories, beds, leashes, feeders. Both premium and everyday SKUs. We work with manufacturers carrying export certifications for the UK and EU pet markets.",
+        "examples": "Examples: dry food, wet food, treats, chew toys, leashes, harnesses, beds, feeders, water fountains."
       },
       "household": {
         "title": "Household & daily goods",
@@ -208,11 +214,6 @@
         "title": "Consumer electronics",
         "body": "Smart in-vehicle equipment, small consumer electronics, accessories. We handle the certification side (CE, UKCA, FCC) up front so buyers don't have to.",
         "examples": "Examples: dashcams, car chargers, phone accessories, audio accessories, wearable accessories, small smart-home devices."
-      },
-      "adjacent": {
-        "title": "Adjacent categories",
-        "body": "Stationery, luggage, gifting, security and protection equipment, arts and crafts. If you're sourcing something consumer-facing, ask.",
-        "examples": "Examples: stationery sets, luggage, backpacks, branded gifting, security devices, decorative items."
       }
     },
     "outOfScope": {
@@ -284,12 +285,129 @@
   },
   "Products": {
     "eyebrow": "Products",
-    "headline": "Products we can supply.",
-    "intro": "A growing selection from factories we've vetted on the ground in China. Available OEM or ODM with your own branding. See something you want? Enquire and we handle the rest.",
+    "headline": "Products we supply.",
+    "intro": "A growing selection from factories we've vetted on the ground in China. Available OEM or ODM with your own branding. See something you want? Send an enquiry and we handle the rest — factory vetting, price negotiation, samples, quality control and shipping to your door.",
     "enquire": "Enquire",
     "customLabel": "Customisation",
     "certsLabel": "Certifications",
     "empty": "More products added as we vet them at trade shows and factory visits.",
-    "soon": "We're actively sourcing this category — tell us what you need and we'll find the right factory."
+    "soon": "We're actively sourcing this category — tell us what you need and we'll find the right factory.",
+    "all": "All",
+    "more": "More",
+    "viewProduct": "View full page"
+  },
+  "SocialTicker": {
+    "label": "Latest"
+  },
+  "Oem": {
+    "meta": {
+      "title": "OEM & Wholesale — build your brand from China | Albion Exports",
+      "description": "Factory-direct OEM/ODM and wholesale sourcing from China, verified on the ground by a UK-founded team. Low MOQs, fast samples, one accountable partner."
+    },
+    "eyebrow": "OEM & Wholesale",
+    "headline": "Launch your product line from China — without the risk.",
+    "sub": "We're your team on the ground: we find and vet the factory, negotiate pricing, manage samples and quality control, and ship to your door. Factory-direct pricing, with a UK partner accountable for every step.",
+    "ctaPrimary": "Start sourcing",
+    "ctaSecondary": "What we source",
+    "propsHeading": "Why brands source with us",
+    "props": [
+      {
+        "title": "Low minimums to start",
+        "body": "Test the market first. Many partners take opening runs from as little as 20–100 units before you scale."
+      },
+      {
+        "title": "Your brand, your design",
+        "body": "Full OEM / ODM — your logo, colours, packaging and custom specifications, built to order."
+      },
+      {
+        "title": "Samples in days",
+        "body": "Prototypes in days, not weeks — checked in person on the ground before they ever ship to you."
+      },
+      {
+        "title": "Factory-direct pricing",
+        "body": "You buy at source. No trading-house layers, no hidden middle-market markup."
+      },
+      {
+        "title": "Verified on the ground",
+        "body": "We visit every factory, check certifications and run quality control ourselves. Our name is on it."
+      },
+      {
+        "title": "One partner, every category",
+        "body": "Sports, pet, household, electronics and more — one relationship instead of twenty."
+      }
+    ],
+    "tiersHeading": "Two ways to work with us",
+    "tiersIntro": "Whether you already know your product or you're building something new, there's a model that fits.",
+    "tiers": [
+      {
+        "name": "Commission sourcing",
+        "tag": "Best price",
+        "body": "We find, vet and manage the factory; you buy direct at source. The lowest-cost route once you know what you want — we earn a clear, agreed commission.",
+        "points": [
+          "You buy direct from the factory",
+          "Best possible unit price",
+          "We handle vetting, samples, QC and logistics",
+          "Transparent commission, no hidden markup"
+        ],
+        "cta": "Source a product"
+      },
+      {
+        "name": "Full OEM / ODM",
+        "tag": "Your own brand",
+        "body": "We develop, brand and supply the finished product to you under a single invoice. We carry the factory relationship and the risk; you receive a finished good, delivered.",
+        "points": [
+          "Custom product built to your spec",
+          "Your branding, packaging and design",
+          "One invoice, one point of accountability",
+          "We own the supply chain end to end"
+        ],
+        "cta": "Build your product"
+      }
+    ],
+    "stepsHeading": "How it works",
+    "steps": [
+      {
+        "title": "Tell us what you need",
+        "body": "Share the product, target price, volume and timeline — or just the idea."
+      },
+      {
+        "title": "We source & vet",
+        "body": "We shortlist factories, verify them on the ground and confirm certifications."
+      },
+      {
+        "title": "Sample & QC",
+        "body": "We get samples made, inspect them in person, and refine until it's right."
+      },
+      {
+        "title": "Price & terms",
+        "body": "A clear, itemised quote — unit price, tooling, lead time and shipping."
+      },
+      {
+        "title": "Production",
+        "body": "Production runs with staged quality checks through to packing."
+      },
+      {
+        "title": "Delivery",
+        "body": "We arrange freight and keep you updated until it arrives."
+      }
+    ],
+    "whyHeading": "Why Albion",
+    "why": [
+      {
+        "title": "UK-founded, China-based",
+        "body": "A British founder living in China, on the ground where your products are made."
+      },
+      {
+        "title": "Independent, not a factory",
+        "body": "We're not tied to one plant. We pick the right factory for you — and stake our name on it."
+      },
+      {
+        "title": "Certified and experienced",
+        "body": "CIM-certified, with 15+ years working across China and trilingual quality support."
+      }
+    ],
+    "ctaHeading": "Tell us what you're building.",
+    "ctaBody": "Send the product, the volume and the timeline. We'll come back with vetted factory options and indicative pricing within 24 hours.",
+    "ctaButton": "Start sourcing"
   }
 }
