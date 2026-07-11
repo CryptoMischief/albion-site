@@ -12,7 +12,7 @@ import {
   Check,
   ArrowRight,
 } from 'lucide-react'
-import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, FaqJsonLd } from '@/components/seo/JsonLd'
 
 const SITE = 'https://albionexports.com'
 
@@ -62,6 +62,7 @@ export default async function OemPage({
   const tiers = t.raw('tiers') as Tier[]
   const steps = t.raw('steps') as TwoLine[]
   const why = t.raw('why') as TwoLine[]
+  const faq = t.raw('faq') as { q: string; a: string }[]
 
   return (
     <div className="bg-paper">
@@ -243,6 +244,28 @@ export default async function OemPage({
             ))}
           </div>
         </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="border-b border-navy-100">
+        <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-24">
+          <h2 className="text-2xl font-semibold tracking-tight text-navy-900 sm:text-3xl md:text-4xl">
+            {t('faqHeading')}
+          </h2>
+          <dl className="mt-10 divide-y divide-navy-100 border-t border-navy-100">
+            {faq.map((f) => (
+              <div key={f.q} className="py-6">
+                <dt className="text-base font-semibold text-navy-900 sm:text-lg">
+                  {f.q}
+                </dt>
+                <dd className="mt-2 text-sm leading-relaxed text-mute sm:text-base">
+                  {f.a}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+        <FaqJsonLd items={faq} />
       </section>
 
       {/* CTA band */}

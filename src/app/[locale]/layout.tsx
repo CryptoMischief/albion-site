@@ -26,10 +26,14 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'Meta' })
   const title = t('title')
   const description = t('description')
+  const googleVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION
   return {
     metadataBase: new URL(SITE_URL),
     title,
     description,
+    ...(googleVerification
+      ? { verification: { google: googleVerification } }
+      : {}),
     alternates: {
       canonical: `/${locale}`,
       languages: {

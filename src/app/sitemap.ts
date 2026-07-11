@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { routing } from '@/i18n/routing'
 import { products } from '@/data/products'
+import { posts } from '@/data/insights'
 
 const SITE = 'https://albionexports.com'
 
@@ -10,11 +11,18 @@ const routes = [
   { path: '/services', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/products', priority: 0.9, changeFrequency: 'weekly' as const },
   { path: '/oem', priority: 0.9, changeFrequency: 'monthly' as const },
+  { path: '/insights', priority: 0.8, changeFrequency: 'weekly' as const },
   { path: '/contact', priority: 0.7, changeFrequency: 'monthly' as const },
   // Per-product pages
   ...products.map((p) => ({
     path: `/products/${p.slug}`,
     priority: 0.8,
+    changeFrequency: 'monthly' as const,
+  })),
+  // Insight articles
+  ...posts.map((p) => ({
+    path: `/insights/${p.slug}`,
+    priority: 0.7,
     changeFrequency: 'monthly' as const,
   })),
 ]

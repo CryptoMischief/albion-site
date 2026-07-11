@@ -11,7 +11,8 @@
     "contact": "Contact",
     "languageToggle": "中文",
     "products": "Products",
-    "oem": "OEM"
+    "oem": "OEM",
+    "insights": "Insights"
   },
   "Hero": {
     "eyebrow": "British-owned · Chinese-licensed",
@@ -408,6 +409,40 @@
     ],
     "ctaHeading": "Tell us what you're building.",
     "ctaBody": "Send the product, the volume and the timeline. We'll come back with vetted factory options and indicative pricing within 24 hours.",
-    "ctaButton": "Start sourcing"
+    "ctaButton": "Start sourcing",
+    "faqHeading": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What's the minimum order quantity (MOQ)?",
+        "a": "It depends on the product and factory, but many of our partners take opening runs from as little as 20–100 units — so you can test the market before committing to volume."
+      },
+      {
+        "q": "Can you put my own brand on the product?",
+        "a": "Yes. We offer full OEM and ODM: your logo, colours, packaging and custom specifications. You own the branding; we manage the factory."
+      },
+      {
+        "q": "How do you make sure a factory is reliable?",
+        "a": "We visit factories in person, check business licences and export certifications, and run our own quality control before anything ships. Being British-founded and based in China means verification happens on the ground — not over email."
+      },
+      {
+        "q": "How long do samples take?",
+        "a": "Usually a few days to a couple of weeks, depending on how much customisation is involved. We inspect every sample in person before it's sent to you."
+      },
+      {
+        "q": "Do you handle shipping to the UK and EU?",
+        "a": "Yes — we arrange freight from the factory and keep you updated until it arrives. For import duties and customs in your country, we'll point you to the right guidance."
+      },
+      {
+        "q": "How do you charge?",
+        "a": "Two ways: a transparent commission when you buy direct from the factory, or a single all-in price when we supply the finished product under our own invoice. No hidden markup either way."
+      }
+    ]
+  },
+  "Insights": {
+    "eyebrow": "Insights",
+    "headline": "Sourcing insights",
+    "intro": "Practical guides on sourcing, manufacturing and importing from China — from a team on the ground.",
+    "readMore": "Read more",
+    "backToInsights": "All insights"
   }
 }

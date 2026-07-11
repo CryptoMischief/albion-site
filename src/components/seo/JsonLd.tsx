@@ -137,3 +137,55 @@ export function BreadcrumbJsonLd({
     />
   )
 }
+
+export function FaqJsonLd({ items }: { items: { q: string; a: string }[] }) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((it) => ({
+      '@type': 'Question',
+      name: it.q,
+      acceptedAnswer: { '@type': 'Answer', text: it.a },
+    })),
+  }
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  )
+}
+
+export function ArticleJsonLd({
+  headline,
+  description,
+  url,
+  datePublished,
+  image,
+}: {
+  headline: string
+  description: string
+  url: string
+  datePublished: string
+  image?: string
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline,
+    description,
+    datePublished,
+    dateModified: datePublished,
+    url,
+    mainEntityOfPage: url,
+    image: image ? `${SITE_URL}${image}` : undefined,
+    author: { '@type': 'Organization', name: 'Albion Exports', url: SITE_URL },
+    publisher: { '@id': `${SITE_URL}#organization` },
+  }
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  )
+}
