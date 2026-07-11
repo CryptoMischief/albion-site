@@ -237,6 +237,30 @@ export default async function OemPage({
               </div>
             ))}
           </div>
+
+          {/* Example deliverable */}
+          <div className="mt-12 grid gap-8 rounded-3xl border border-navy-100 bg-white p-6 shadow-sm sm:p-10 lg:grid-cols-2 lg:items-center lg:gap-12">
+            <div>
+              <div className="inline-flex items-center gap-2 rounded-full border border-navy-200 bg-paper px-3 py-1 text-[11px] font-medium uppercase tracking-[0.18em] text-navy-700">
+                {t('exampleEyebrow')}
+              </div>
+              <h3 className="mt-4 text-xl font-semibold tracking-tight text-navy-900 sm:text-2xl">
+                {t('exampleHeading')}
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-mute sm:text-base">
+                {t('exampleBody')}
+              </p>
+            </div>
+            <div className="relative aspect-[1200/1045] overflow-hidden rounded-2xl border border-navy-100 shadow-md ring-1 ring-navy-100">
+              <Image
+                src="/oem/spec-comparison-example.jpg"
+                alt="Albion spec comparison: a client's requirements checked against a battery cell, parameter by parameter"
+                fill
+                sizes="(min-width: 1024px) 40vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

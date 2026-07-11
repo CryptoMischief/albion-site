@@ -437,7 +437,10 @@
         "a": "Two ways: a transparent commission when you buy direct from the factory, or a single all-in price when we supply the finished product under our own invoice. No hidden markup either way."
       }
     ],
-    "bandLine": "We’re standing where your products are made."
+    "bandLine": "We’re standing where your products are made.",
+    "exampleEyebrow": "Example",
+    "exampleHeading": "What our sourcing looks like in practice",
+    "exampleBody": "A spec comparison from a live job. We checked a 21700 battery cell against the client’s brief, parameter by parameter, and flagged the two that fell short in red rather than burying them. You get the same clear read on your product before a penny is spent."
   },
   "Insights": {
     "eyebrow": "Insights",
