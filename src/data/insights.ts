@@ -11,7 +11,8 @@ export type Link = { label: string; url: string }
 export type Post = {
   slug: string
   date: string // ISO — published date
-  image?: string
+  image?: string // photo — used for thumbnails (ticker, index cards)
+  banner?: string // branded 1200×630 — used for OG share image + in-article hero
   imageAlt: Record<Locale, string>
   author: {
     name: string
@@ -95,6 +96,8 @@ Samples usually take one to three weeks, longer if there's new tooling involved.
 ## Getting it home: a quick word on terms
 
 The journey has two halves: out of China, and into the UK.
+
+![A container port at night, the scale of China's export trade](/insights/img/sourcing-china-port.jpg)
 
 Out of China is our side. Albion is a licensed import/export company on the ground here, so the Chinese export paperwork is part of what we handle, not something you inherit.
 
@@ -180,6 +183,8 @@ const ZH_BODY = `多数英国与欧盟买家在中国吃亏，并不是因为选
 
 这段旅程分两半：运出中国，以及进入英国。
 
+![夜色中的集装箱港口——中国出口贸易的规模](/insights/img/sourcing-china-port.jpg)
+
 运出中国这一半是我们的事。安必隆是一家在中国本地持牌的进出口公司，因此中国这端的出口手续本就是我们工作的一部分，不会甩给您。
 
 进入英国这一半是您的事，货物启运前值得先了解它的轮廓。
@@ -199,6 +204,7 @@ export const posts: Post[] = [
     slug: 'how-to-source-products-from-china',
     date: '2026-07-11',
     image: '/insights/img/sourcing-china-port.jpg',
+    banner: '/insights/img/article-banner.jpg',
     imageAlt: {
       en: 'A container port at night — the scale of China’s export trade',
       zh: '夜色中的集装箱港口——中国出口贸易的规模',

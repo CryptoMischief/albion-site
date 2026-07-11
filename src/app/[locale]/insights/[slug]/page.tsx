@@ -49,7 +49,9 @@ export async function generateMetadata({
       url: `${SITE}/${locale}/insights/${slug}`,
       type: 'article',
       publishedTime: post.date,
-      images: post.image ? [{ url: `${SITE}${post.image}` }] : undefined,
+      images: post.banner ?? post.image
+        ? [{ url: `${SITE}${post.banner ?? post.image}` }]
+        : undefined,
     },
     twitter: {
       card: 'summary_large_image',
@@ -132,11 +134,11 @@ export default async function InsightPage({
           </p>
         </div>
 
-        {post.image && (
-          <div className="relative mt-8 aspect-[3/2] overflow-hidden rounded-2xl bg-navy-50">
+        {(post.banner ?? post.image) && (
+          <div className="relative mt-8 aspect-[1200/630] overflow-hidden rounded-2xl bg-navy-900">
             <Image
-              src={post.image}
-              alt={post.imageAlt[L]}
+              src={(post.banner ?? post.image) as string}
+              alt={post.title[L]}
               fill
               priority
               sizes="(min-width: 672px) 640px, 100vw"

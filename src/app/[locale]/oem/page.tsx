@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
@@ -75,7 +76,16 @@ export default async function OemPage({
       />
 
       {/* Hero */}
-      <section className="relative isolate overflow-hidden bg-gradient-to-br from-navy-900 via-navy-900 to-navy-800">
+      <section className="relative isolate overflow-hidden">
+        <Image
+          src="/insights/img/china-factory-floor.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="-z-10 object-cover"
+        />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-navy-900/97 via-navy-900/88 to-navy-800/72" />
         <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28 md:py-32">
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/5 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.18em] text-white/90 backdrop-blur sm:text-xs">
             {t('eyebrow')}
@@ -118,7 +128,7 @@ export default async function OemPage({
                   key={p.title}
                   className="rounded-3xl border border-navy-100 bg-white p-6 shadow-sm sm:p-7"
                 >
-                  <div className="flex size-11 items-center justify-center rounded-xl bg-navy-50 text-navy-800">
+                  <div className="flex size-11 items-center justify-center rounded-xl bg-gradient-to-br from-navy-600 to-navy-900 text-white shadow-sm">
                     <Icon className="size-5.5" />
                   </div>
                   <h3 className="mt-5 text-lg font-semibold text-navy-900">
@@ -230,19 +240,53 @@ export default async function OemPage({
         </div>
       </section>
 
+      {/* Full-bleed image band */}
+      <section className="relative isolate overflow-hidden border-b border-navy-100">
+        <Image
+          src="/insights/img/china-production-line.jpg"
+          alt=""
+          fill
+          sizes="100vw"
+          className="-z-10 object-cover"
+        />
+        <div className="absolute inset-0 -z-10 bg-navy-900/82" />
+        <div className="mx-auto max-w-4xl px-4 py-20 text-center sm:px-6 sm:py-28">
+          <p className="text-2xl font-semibold leading-snug tracking-tight text-white sm:text-3xl md:text-4xl">
+            {t('bandLine')}
+          </p>
+        </div>
+      </section>
+
       {/* Why Albion */}
       <section className="border-b border-navy-100 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
-          <h2 className="text-2xl font-semibold tracking-tight text-navy-900 sm:text-3xl md:text-4xl">
-            {t('whyHeading')}
-          </h2>
-          <div className="mt-10 grid gap-8 sm:grid-cols-3">
-            {why.map((w) => (
-              <div key={w.title}>
-                <h3 className="text-lg font-semibold text-navy-900">{w.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-mute">{w.body}</p>
+          <div className="grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-sm">
+              <Image
+                src="/insights/img/factory-quality-inspection.jpg"
+                alt=""
+                fill
+                sizes="(min-width: 1024px) 40vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl font-semibold tracking-tight text-navy-900 sm:text-3xl md:text-4xl">
+                {t('whyHeading')}
+              </h2>
+              <div className="mt-8 space-y-7">
+                {why.map((w) => (
+                  <div key={w.title} className="border-l-2 border-navy-200 pl-5">
+                    <h3 className="text-lg font-semibold text-navy-900">
+                      {w.title}
+                    </h3>
+                    <p className="mt-1.5 text-sm leading-relaxed text-mute">
+                      {w.body}
+                    </p>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>

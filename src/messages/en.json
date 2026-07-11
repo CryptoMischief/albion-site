@@ -436,7 +436,8 @@
         "q": "How do you charge?",
         "a": "Two ways: a transparent commission when you buy direct from the factory, or a single all-in price when we supply the finished product under our own invoice. No hidden markup either way."
       }
-    ]
+    ],
+    "bandLine": "We’re standing where your products are made."
   },
   "Insights": {
     "eyebrow": "Insights",
