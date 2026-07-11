@@ -162,12 +162,16 @@ export function ArticleJsonLd({
   url,
   datePublished,
   image,
+  authorName,
+  authorRole,
 }: {
   headline: string
   description: string
   url: string
   datePublished: string
   image?: string
+  authorName?: string
+  authorRole?: string
 }) {
   const data = {
     '@context': 'https://schema.org',
@@ -179,7 +183,14 @@ export function ArticleJsonLd({
     url,
     mainEntityOfPage: url,
     image: image ? `${SITE_URL}${image}` : undefined,
-    author: { '@type': 'Organization', name: 'Albion Exports', url: SITE_URL },
+    author: authorName
+      ? {
+          '@type': 'Person',
+          name: authorName,
+          jobTitle: authorRole,
+          worksFor: { '@type': 'Organization', name: 'Albion Exports' },
+        }
+      : { '@type': 'Organization', name: 'Albion Exports', url: SITE_URL },
     publisher: { '@id': `${SITE_URL}#organization` },
   }
   return (
