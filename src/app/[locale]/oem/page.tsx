@@ -221,22 +221,29 @@ export default async function OemPage({
           <h2 className="text-2xl font-semibold tracking-tight text-navy-900 sm:text-3xl md:text-4xl">
             {t('stepsHeading')}
           </h2>
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <ol className="mt-10 max-w-2xl">
             {steps.map((s, i) => (
-              <div
-                key={s.title}
-                className="rounded-3xl border border-navy-100 bg-white p-6 shadow-sm sm:p-7"
-              >
-                <span className="inline-flex size-9 items-center justify-center rounded-full bg-navy-900 text-sm font-semibold text-white">
+              <li key={s.title} className="relative flex gap-5 pb-9 last:pb-0">
+                {i < steps.length - 1 && (
+                  <span
+                    aria-hidden
+                    className="absolute bottom-0 left-5 top-11 w-px bg-navy-200"
+                  />
+                )}
+                <span className="relative z-10 flex size-10 shrink-0 items-center justify-center rounded-full bg-navy-900 text-sm font-semibold text-white shadow-sm">
                   {i + 1}
                 </span>
-                <h3 className="mt-4 text-lg font-semibold text-navy-900">
-                  {s.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-mute">{s.body}</p>
-              </div>
+                <div className="pt-1">
+                  <h3 className="text-lg font-semibold text-navy-900">
+                    {s.title}
+                  </h3>
+                  <p className="mt-1.5 text-sm leading-relaxed text-mute">
+                    {s.body}
+                  </p>
+                </div>
+              </li>
             ))}
-          </div>
+          </ol>
 
           {/* Example deliverable */}
           <div className="mt-12 grid gap-8 rounded-3xl border border-navy-100 bg-white p-6 shadow-sm sm:p-10 lg:grid-cols-2 lg:items-center lg:gap-12">
