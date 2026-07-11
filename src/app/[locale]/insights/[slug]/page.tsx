@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
@@ -109,6 +110,19 @@ export default async function InsightPage({
           {post.excerpt[L]}
         </p>
 
+        {post.image && (
+          <div className="relative mt-8 aspect-[3/2] overflow-hidden rounded-2xl bg-navy-50">
+            <Image
+              src={post.image}
+              alt={post.title[L]}
+              fill
+              priority
+              sizes="(min-width: 672px) 640px, 100vw"
+              className="object-cover"
+            />
+          </div>
+        )}
+
         <div className="mt-10 space-y-5">
           {post.body.map((block, i) => {
             if (block.type === 'h2') {
@@ -119,6 +133,21 @@ export default async function InsightPage({
                 >
                   {block.text[L]}
                 </h2>
+              )
+            }
+            if (block.type === 'img') {
+              return (
+                <figure key={i} className="my-8">
+                  <div className="relative aspect-[3/2] overflow-hidden rounded-2xl bg-navy-50">
+                    <Image
+                      src={block.src}
+                      alt={block.alt[L]}
+                      fill
+                      sizes="(min-width: 672px) 640px, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                </figure>
               )
             }
             if (block.type === 'ul') {

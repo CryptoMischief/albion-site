@@ -8,6 +8,7 @@ export type Block =
   | { type: 'p'; text: Record<Locale, string> }
   | { type: 'h2'; text: Record<Locale, string> }
   | { type: 'ul'; items: Record<Locale, string[]> }
+  | { type: 'img'; src: string; alt: Record<Locale, string> }
 
 export type Post = {
   slug: string
@@ -22,7 +23,7 @@ export const posts: Post[] = [
   {
     slug: 'how-to-source-products-from-china',
     date: '2026-07-11',
-    image: '/hero/hero.jpg',
+    image: '/insights/img/china-factory-floor.jpg',
     title: {
       en: 'How to source products from China without getting burned: a UK & EU buyer’s guide',
       zh: '如何从中国采购产品而不踩坑：英国与欧盟买家指南',
@@ -83,6 +84,14 @@ export const posts: Post[] = [
         },
       },
       {
+        type: 'img',
+        src: '/insights/img/factory-quality-inspection.jpg',
+        alt: {
+          en: 'Inspecting a product on the factory floor before an order ships',
+          zh: '发货前在工厂现场检验产品',
+        },
+      },
+      {
         type: 'h2',
         text: { en: 'OEM or ODM — which do you need?', zh: 'OEM 还是 ODM——您需要哪种？' },
       },
@@ -102,6 +111,14 @@ export const posts: Post[] = [
         text: {
           en: 'You don’t need a full container on day one. Many factories will run opening orders from as little as 20–100 units, and a proper sample round lets you check quality before you spend. Test the market, prove the product, then scale the volume.',
           zh: '您无需一开始就订一整个货柜。许多工厂首批订单仅 20–100 件起，而完整的打样环节让您在投入前先检验质量。先试市场、验证产品，再扩大数量。',
+        },
+      },
+      {
+        type: 'img',
+        src: '/insights/img/china-production-line.jpg',
+        alt: {
+          en: 'A production line in a Chinese factory ramping from samples to volume',
+          zh: '中国工厂的生产线，从打样到量产',
         },
       },
       {
