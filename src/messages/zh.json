@@ -443,6 +443,10 @@
     "headline": "采购洞察",
     "intro": "关于中国采购、制造与进口的实用指南——来自一线团队。",
     "readMore": "阅读全文",
-    "backToInsights": "全部洞察"
+    "backToInsights": "全部洞察",
+    "subscribe": "在 Substack 订阅",
+    "follow": "在领英关注",
+    "newsletterHeading": "下一篇指南，直达您的邮箱。",
+    "newsletterBody": "来自工厂一线的实用中国采购指南。绝无垃圾邮件，绝无空话。"
   }
 }
