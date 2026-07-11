@@ -8,6 +8,7 @@ import { routing } from '@/i18n/routing'
 import { WhatsAppIcon } from '@/components/icons/WhatsAppIcon'
 import { LinkedInIcon } from '@/components/icons/LinkedInIcon'
 import { InstagramIcon } from '@/components/icons/InstagramIcon'
+import { SubstackIcon } from '@/components/icons/SubstackIcon'
 
 const links = [
   { href: '/about', key: 'about' as const },
@@ -143,6 +144,15 @@ export function MobileMenu({ region }: { region: 'cn' | 'global' }) {
                   className="inline-flex size-11 items-center justify-center rounded-full border border-navy-200 text-navy-700 transition-colors hover:bg-navy-50"
                 >
                   <InstagramIcon className="size-5" />
+                </a>
+                <a
+                  href="https://albionexports.substack.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Substack"
+                  className="inline-flex size-11 items-center justify-center rounded-full border border-navy-200 text-navy-700 transition-colors hover:bg-navy-50"
+                >
+                  <SubstackIcon className="size-4.5" />
                 </a>
               </div>
             </div>
