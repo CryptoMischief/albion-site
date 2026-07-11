@@ -13,6 +13,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import { BreadcrumbJsonLd, FaqJsonLd } from '@/components/seo/JsonLd'
+import { FaqAccordion } from '@/components/ui/FaqAccordion'
 
 const SITE = 'https://albionexports.com'
 
@@ -252,18 +253,7 @@ export default async function OemPage({
           <h2 className="text-2xl font-semibold tracking-tight text-navy-900 sm:text-3xl md:text-4xl">
             {t('faqHeading')}
           </h2>
-          <dl className="mt-10 divide-y divide-navy-100 border-t border-navy-100">
-            {faq.map((f) => (
-              <div key={f.q} className="py-6">
-                <dt className="text-base font-semibold text-navy-900 sm:text-lg">
-                  {f.q}
-                </dt>
-                <dd className="mt-2 text-sm leading-relaxed text-mute sm:text-base">
-                  {f.a}
-                </dd>
-              </div>
-            ))}
-          </dl>
+          <FaqAccordion items={faq} />
         </div>
         <FaqJsonLd items={faq} />
       </section>

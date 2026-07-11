@@ -11,6 +11,7 @@ import {
   FaqJsonLd,
 } from '@/components/seo/JsonLd'
 import { ArticleBody } from '@/components/insights/ArticleBody'
+import { FaqAccordion } from '@/components/ui/FaqAccordion'
 import { posts, type Locale } from '@/data/insights'
 
 const SITE = 'https://albionexports.com'
@@ -171,18 +172,7 @@ export default async function InsightPage({
             <h2 className="text-xl font-semibold tracking-tight text-navy-900 sm:text-2xl">
               {tOem('faqHeading')}
             </h2>
-            <dl className="mt-6 divide-y divide-navy-100 border-t border-navy-100">
-              {faq.map((f) => (
-                <div key={f.q} className="py-5">
-                  <dt className="text-base font-semibold text-navy-900">
-                    {f.q}
-                  </dt>
-                  <dd className="mt-2 text-sm leading-relaxed text-mute">
-                    {f.a}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+            <FaqAccordion items={faq} />
             <FaqJsonLd items={faq} />
           </section>
         )}

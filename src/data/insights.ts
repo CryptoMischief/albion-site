@@ -1,7 +1,8 @@
 // Albion Insights — the on-site blog. Content lives HERE (on albionexports.com)
 // so the SEO value accrues to the main domain. Bodies are Markdown (GFM: tables,
-// links, lists). To add an article, append a Post. Follow the house style guide.
-// Substack can syndicate FROM this, with its canonical pointing back here.
+// links, lists). To add an article, append a Post. Follow the house style guide
+// (mirrored in the albion-writer skill). Substack can syndicate FROM this, with
+// its canonical pointing back here.
 
 export type Locale = 'en' | 'zh'
 export type Faq = { q: string; a: string }
@@ -48,6 +49,8 @@ The single most useful document here is the company's business licence (营业�
 - **The legal representative (法定代表人)** — the person legally able to bind the company.
 - **Business scope (经营范围)** — the tell. A real manufacturer's scope mentions production or manufacturing (生产 / 制造) of specific goods. A pure trading company's scope leans on wholesale and trade (批发 / 贸易). If a "factory" licence says nothing about making anything, that's your answer.
 
+![An example business licence (营业执照). The business scope field, 经营范围, is what separates a real maker from a trader](/insights/img/business-licence-example.jpg)
+
 Then verify it. China's official company registry, the National Enterprise Credit Information Publicity System (known as GSXT), is public, free, and run by the market regulator. You can look up any registered mainland company at [gsxt.gov.cn](https://www.gsxt.gov.cn) by Chinese name or USCC, and check that the details on the licence match the live record: same name, same code, same legal rep, and a live status (存续 / 在营) rather than cancelled or revoked (注销 / 吊销).
 
 One honest catch: the registry is entirely in Chinese, usually wants a real-name login for the full record, and often blocks overseas connections. It's the authoritative source, and it's built for people inside China with a Chinese phone number. Which is exactly the kind of thing a partner on the ground is for.
@@ -57,12 +60,12 @@ One honest catch: the registry is entirely in Chinese, usually wants a real-name
 Verifying the paperwork tells you a company is real. It doesn't tell you it can make your product well. For that, work through something like this before you send a penny:
 
 1. **Confirm the licence and check it on GSXT.** Real company, active status, scope that matches the work.
-2. **Match the scope to the product.** A cookware factory quoting you on electronics is a broker wearing a hat.
+2. **Match the scope to the product.** A supplier whose whole catalogue is cookware but who happily quotes your electronics order isn't making either. They're a trader, buying it in from the real factory and adding a cut.
 3. **Ask to see the actual line.** Photos and a short video walk-through of the specific process, not a glossy brochure or a stock catalogue shot. Vague answers here are the loudest red flag there is.
 4. **Get a sample, then check it against the production run.** A good sample proves the factory can hit the standard. It doesn't prove every unit will. Agreeing an inspection on the actual production batch is what closes that gap.
 5. **Have someone stand on the floor.** In person. This is the biggest protection against a bad order, and it's the step most buyers skip because they're 8,000 km away. We've turned up to "factories" that were a rented showroom and a WeChat account, with the real production happening two provinces over, if it existed at all.
 
-For anything beyond a small first order, an on-site check or a third-party inspection is cheap insurance. A single inspection typically runs somewhere in the low hundreds of pounds. Set against a five-figure order that ships wrong, it pays for itself many times over.
+For anything beyond a small first order, an on-site check or a third-party inspection is cheap insurance. It costs a small fraction of the value it protects, and the first time it stops a flawed batch before the container leaves, it has paid for itself several times over.
 
 ![A quality inspection on the factory floor before an order ships](/insights/img/factory-quality-inspection.jpg)
 
@@ -79,7 +82,7 @@ These two get used interchangeably, and they shouldn't be. The difference decide
 | **How unique is it** | Genuinely your own product | Shared with whoever else buys it |
 | **Best when** | You have a real design and want to own it | You want to test a market quickly |
 
-Most first-time buyers start with ODM to get moving, prove the demand is real, then move to OEM once they know the product is worth building from scratch. There's no prize for doing it the hard way on day one. If you want a hand with either, [that's exactly what we do](/oem).
+Most first-time buyers start with ODM to get moving, prove the demand is real, then move to OEM once they know the product is worth building from scratch. There's no prize for doing it the hard way on day one. Both routes are exactly what our [OEM and ODM sourcing](/oem) is built for: we run the design, factory and quality side so you can get on with selling.
 
 ## Start small, then scale
 
@@ -91,7 +94,11 @@ Samples usually take one to three weeks, longer if there's new tooling involved.
 
 ## Getting it home: a quick word on terms
 
-Two things worth knowing before the goods move.
+The journey has two halves: out of China, and into the UK.
+
+Out of China is our side. Albion is a licensed import/export company on the ground here, so the Chinese export paperwork is part of what we handle, not something you inherit.
+
+Into the UK is yours, and it's worth knowing the shape of it before the goods move.
 
 First, **Incoterms**: the shorthand that decides who pays for what and, just as importantly, who carries the risk at each leg of the journey. CFR (Cost and Freight) and CIF (Cost, Insurance and Freight) sound almost identical, but they aren't the same, and CFR applies to sea freight only. Agree the term in writing before anything ships, so there's no argument about who's liable for a container that's already at sea.
 
@@ -101,7 +108,7 @@ Second, **the UK import process itself**: duties, VAT, EORI numbers, commodity c
 
 Albion Exports is a British-founded, China-based [sourcing partner](/services). The short version: we're standing where your products are made. We find and verify the factory, read the licence and check it against the registry, negotiate the price, manage samples and quality control, and see the order through production and shipping.
 
-You get China's price and scale, and a UK partner accountable for every step. One who can read the Chinese-only registry, walk the Anhui factory floor, and catch the problem while it's still fixable, instead of when it's on a boat.`
+You get China's price and scale, and a UK partner accountable for every step. One who can read the Chinese-only registry, walk the factory floor, and catch the problem while it's still fixable, instead of when it's on a boat.`
 
 const ZH_BODY = `多数英国与欧盟买家在中国吃亏，并不是因为选错了产品，而是因为信错了公司：一家"工厂"其实是中间商、样品与量产货判若两物，或者规格在报价与货柜之间被悄悄改动。
 
@@ -126,6 +133,8 @@ const ZH_BODY = `多数英国与欧盟买家在中国吃亏，并不是因为选
 - **法定代表人** —— 有权代表并约束公司的人。
 - **经营范围** —— 这是关键。真正制造商的经营范围会写明具体货物的生产 / 制造；纯贸易公司则偏重批发 / 贸易。如果一家"工厂"的执照只字未提"造东西"，答案就摆在那里。
 
+![营业执照示例。经营范围一栏，正是分辨真工厂与贸易商的关键](/insights/img/business-licence-example.jpg)
+
 然后去核验。中国官方的企业登记系统——国家企业信用信息公示系统（简称 GSXT）——公开、免费，由市场监管部门运营。您可以在 [gsxt.gov.cn](https://www.gsxt.gov.cn) 用中文名称或 USCC 查询任意一家内地注册公司，核对执照上的信息与在线记录是否一致：同名、同码、同一法定代表人，且状态为存续 / 在营，而非注销 / 吊销。
 
 有一点得说实话：该系统全为中文，查看完整记录通常需要实名登录，而且常常屏蔽境外访问。它是权威来源，但也是为身在中国、持中国手机号的人设计的。而这，正是一线伙伴的用武之地。
@@ -135,12 +144,12 @@ const ZH_BODY = `多数英国与欧盟买家在中国吃亏，并不是因为选
 核验文件能告诉您一家公司是真的，却不能告诉您它能把您的产品做好。为此，在付出一分钱之前，不妨走一遍这样的流程：
 
 1. **确认执照并在 GSXT 上核查。** 真实公司、在营状态、经营范围与业务相符。
-2. **把经营范围对上产品。** 一家炊具厂给您报电子产品的价，那是掮客在换帽子。
+2. **把经营范围对上产品。** 一家整本目录都是炊具的供应商，却爽快地给您的电子订单报价，其实两样它都不生产。它是贸易商，从真正的工厂进货，再加一道差价。
 3. **要求看真实的生产线。** 就该具体工序的照片与简短视频走查，而不是精美画册或图库摆拍。这一步含糊其辞，是最响亮的危险信号。
 4. **取样，再拿样品对照量产货。** 好样品证明工厂能达到标准，却不证明每一件都会达到。就实际量产批次约定验货，才能填上这道缝。
 5. **让人站到车间里。** 亲自去。这是抵御劣质订单的最大保障，也是多数买家因远隔八千公里而跳过的一步。我们曾上门，结果"工厂"只是一间租来的展厅加一个微信号，真正的生产在两省之外——如果它真的存在的话。
 
-对于超出小额首单的任何订单，一次现场查验或第三方验货都是廉价的保险。单次验货通常花费几百英镑上下。相较于一笔发错货的五位数订单，它的回报是成本的许多倍。
+对于超出小额首单的任何订单，一次现场查验或第三方验货都是廉价的保险。它的花费只是所保护货值的一小部分；而只要它在货柜启运前拦下一批次品，就已数倍地收回成本。
 
 ![发货前在工厂车间进行的质量检验](/insights/img/factory-quality-inspection.jpg)
 
@@ -157,7 +166,7 @@ const ZH_BODY = `多数英国与欧盟买家在中国吃亏，并不是因为选
 | **独特性** | 真正属于您自己的产品 | 与其他买家共享 |
 | **适合场景** | 您已有真实设计并想拥有它 | 您想快速试水市场 |
 
-多数初次买家先用 ODM 起步、跑通需求，确认产品值得从零打造后再转向 OEM。第一天就选最难的路，并没有奖励。若您在这两者上需要帮手，[这正是我们所做的事](/oem)。
+多数初次买家先用 ODM 起步、跑通需求，确认产品值得从零打造后再转向 OEM。第一天就选最难的路，并没有奖励。这两条路，正是我们的 [OEM / ODM 采购服务](/oem) 所擅长：设计、工厂与质量这一端由我们统筹，您只管把货卖好。
 
 ## 小批量起步，再扩大规模
 
@@ -169,7 +178,11 @@ const ZH_BODY = `多数英国与欧盟买家在中国吃亏，并不是因为选
 
 ## 把货运回家：关于贸易术语的一点提醒
 
-货物启运前，有两件事值得了解。
+这段旅程分两半：运出中国，以及进入英国。
+
+运出中国这一半是我们的事。安必隆是一家在中国本地持牌的进出口公司，因此中国这端的出口手续本就是我们工作的一部分，不会甩给您。
+
+进入英国这一半是您的事，货物启运前值得先了解它的轮廓。
 
 其一，**国际贸易术语（Incoterms）**：它以简写界定谁承担哪些费用，同样重要的是，谁在每一段旅程中承担风险。CFR（成本加运费）与 CIF（成本、保险加运费）听来几乎一样，其实并不相同，且 CFR 仅适用于海运。启运前把术语落在书面上，就不会为一个已在海上的货柜由谁负责而起争执。
 
@@ -179,7 +192,7 @@ const ZH_BODY = `多数英国与欧盟买家在中国吃亏，并不是因为选
 
 安必隆进出口是一家英国创立、扎根中国的[采购合作伙伴](/services)。一句话概括：我们就站在您产品被制造的地方。我们寻找并核验工厂、研读执照并对照登记系统核查、谈判价格、管理打样与质量控制，并把订单一路盯到生产与发货。
 
-您得到的是中国的价格与规模，以及一位对每个环节负责的英方伙伴——一位能读懂纯中文登记系统、走得进安徽工厂车间、在问题还可挽回时就将其发现（而不是等它已在船上）的伙伴。`
+您得到的是中国的价格与规模，以及一位对每个环节负责的英方伙伴——一位能读懂纯中文登记系统、走得进中国工厂车间、在问题还可挽回时就将其发现（而不是等它已在船上）的伙伴。`
 
 export const posts: Post[] = [
   {
@@ -197,8 +210,8 @@ export const posts: Post[] = [
         zh: '创始人，安必隆进出口 · 于合肥办公室撰写',
       },
       bio: {
-        en: 'Richie is the British founder of Albion Exports. He lives in Hefei and spends most weeks on factory floors across Anhui, so this comes from the ground, not from a search engine.',
-        zh: 'Richie 是安必隆进出口的英国创始人，常驻合肥，多数时间都在安徽各地的工厂车间。以下内容来自一线，而非搜索引擎。',
+        en: 'Richie is the British founder of Albion Exports. He lives in Hefei and spends most weeks on factory floors across China, so this comes from the ground, not from a search engine.',
+        zh: 'Richie 是安必隆进出口的英国创始人，常驻合肥，多数时间都在中国各地的工厂车间。以下内容来自一线，而非搜索引擎。',
       },
     },
     title: {
@@ -206,8 +219,8 @@ export const posts: Post[] = [
       zh: '如何从中国采购产品而不踩坑：英国与欧盟买家指南',
     },
     standfirst: {
-      en: 'The saving is real. So is the risk. Getting one without the other is the whole job, and it’s what we do on factory floors across Anhui most weeks.',
-      zh: '省钱是真的，风险也是真的。既要省钱又要避开风险，才是真正的功夫，而这正是我们每周在安徽各地工厂车间所做的事。',
+      en: 'The saving is real. So is the risk. Getting one without the other is the whole job, and it’s what we do on factory floors across China most weeks.',
+      zh: '省钱是真的，风险也是真的。既要省钱又要避开风险，才是真正的功夫，而这正是我们每周在中国各地工厂车间所做的事。',
     },
     excerpt: {
       en: 'China’s price and scale are real, but only if you can trust the factory. A UK & EU buyer’s guide to spotting middlemen, verifying suppliers on China’s official registry, and starting small.',
