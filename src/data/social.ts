@@ -36,7 +36,7 @@ export const socialPosts: SocialPost[] = [
     blurb:
       'A full day on the floor of a Chinese robotics manufacturer — from lab prototypes to production lines. The kind of supplier Western buyers rarely get in front of.',
     url: 'https://www.linkedin.com/posts/albion-exports_robotics-ai-automation-activity-7481244199514832896-SD4d',
-    image: '/social/li.jpg',
+    image: '/social/ig.jpg',
   },
   {
     platform: 'instagram',
@@ -44,7 +44,7 @@ export const socialPosts: SocialPost[] = [
     blurb:
       'Sports, outdoor and pet gear — three days on the show floor, meeting factories face to face and finding products worth bringing back to our buyers.',
     url: 'https://www.instagram.com/reel/DaelgUcPXl7/',
-    image: '/social/ig.jpg',
+    image: '/social/li.jpg',
   },
   // YouTube: channel not live yet — add posts here once it's up.
   // WeChat 视频号 / Douyin: add with region: 'cn' when live.
