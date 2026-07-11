@@ -4,6 +4,7 @@
 
 const links = [
   { label: '微信公众号', href: '#wechat-qr' },
+  { label: '小红书 Rednote', href: 'https://xhslink.com/m/Aomr2SzFWW9' },
   { label: '脉脉 Maimai', href: 'https://maimai.cn' },
   { label: 'Alibaba.com', href: 'https://albionexports.trustpass.alibaba.com' },
   { label: 'Made-in-China', href: 'https://www.made-in-china.com' },
