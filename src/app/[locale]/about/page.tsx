@@ -134,7 +134,7 @@ export default async function AboutPage({
           <div className="mt-8 grid gap-4 sm:grid-cols-2 sm:gap-5">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-sm">
               <Image
-                src="/social/li.jpg"
+                src="/about/richie-inspecting.jpg"
                 alt="Richie checking a product hands-on at a China trade show"
                 fill
                 sizes="(min-width: 640px) 50vw, 100vw"
@@ -143,7 +143,7 @@ export default async function AboutPage({
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-sm">
               <Image
-                src="/social/ig.jpg"
+                src="/about/team-visit.jpg"
                 alt="The Albion team visiting a Chinese manufacturer"
                 fill
                 sizes="(min-width: 640px) 50vw, 100vw"
