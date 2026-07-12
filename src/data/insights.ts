@@ -11,7 +11,8 @@ export type Link = { label: string; url: string }
 export type Post = {
   slug: string
   date: string // ISO — published date
-  image?: string // photo — used for thumbnails (ticker, index cards)
+  image?: string // photo — used for the ticker thumbnail
+  thumb?: string // branded square tile — used for the Insights index card
   banner?: string // branded 1200×630 — used for OG share image + in-article hero
   imageAlt: Record<Locale, string>
   author: {
@@ -204,6 +205,7 @@ export const posts: Post[] = [
     slug: 'how-to-source-products-from-china',
     date: '2026-07-11',
     image: '/insights/img/sourcing-china-port.jpg',
+    thumb: '/insights/img/article-banner-square.jpg',
     banner: '/insights/img/article-banner.jpg',
     imageAlt: {
       en: 'A container port at night — the scale of China’s export trade',

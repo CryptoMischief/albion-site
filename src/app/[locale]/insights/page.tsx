@@ -107,14 +107,14 @@ export default async function InsightsPage({
                 href={`/insights/${p.slug}`}
                 className="group grid overflow-hidden rounded-3xl border border-navy-100 bg-white shadow-sm transition-all hover:border-navy-300 hover:shadow-md sm:grid-cols-[13rem_1fr] lg:grid-cols-[18rem_1fr]"
               >
-                {p.image && (
-                  <div className="relative aspect-[16/10] sm:aspect-auto">
+                {(p.thumb ?? p.image) && (
+                  <div className="relative aspect-square bg-navy-900">
                     <Image
-                      src={p.image}
-                      alt={p.imageAlt[L]}
+                      src={(p.thumb ?? p.image) as string}
+                      alt={p.title[L]}
                       fill
                       sizes="(min-width: 1024px) 18rem, (min-width: 640px) 13rem, 100vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="object-cover"
                     />
                   </div>
                 )}
