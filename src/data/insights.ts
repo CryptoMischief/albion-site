@@ -54,7 +54,7 @@ The single most useful document here is the company's business licence (营业�
 
 Then verify it. China's official company registry, the National Enterprise Credit Information Publicity System (known as GSXT), is public, free, and run by the market regulator. You can look up any registered mainland company at [gsxt.gov.cn](https://www.gsxt.gov.cn) by Chinese name or USCC, and check that the details on the licence match the live record: same name, same code, same legal rep, and a live status (存续 / 在营) rather than cancelled or revoked (注销 / 吊销).
 
-One honest catch: the registry is entirely in Chinese, usually wants a real-name login for the full record, and often blocks overseas connections. It's the authoritative source, and it's built for people inside China with a Chinese phone number. Which is exactly the kind of thing a partner on the ground is for.
+One honest catch: it's entirely in Chinese, with no English version. You search by the exact registered Chinese name or the 18-digit USCC (an English spelling returns nothing), and the sign-in captcha is a slider puzzle or a 'tap these Chinese characters in order' test, in Chinese. Most of a company's record is visible without an account, but the deeper filings sit behind a Chinese ID and face scan. It's the authoritative source, built for people already inside China. Which is exactly what a partner on the ground is for.
 
 ## How to vet a factory before you commit
 
@@ -140,7 +140,7 @@ const ZH_BODY = `多数英国与欧盟买家在中国吃亏，并不是因为选
 
 然后去核验。中国官方的企业登记系统——国家企业信用信息公示系统（简称 GSXT）——公开、免费，由市场监管部门运营。您可以在 [gsxt.gov.cn](https://www.gsxt.gov.cn) 用中文名称或 USCC 查询任意一家内地注册公司，核对执照上的信息与在线记录是否一致：同名、同码、同一法定代表人，且状态为存续 / 在营，而非注销 / 吊销。
 
-有一点得说实话：该系统全为中文，查看完整记录通常需要实名登录，而且常常屏蔽境外访问。它是权威来源，但也是为身在中国、持中国手机号的人设计的。而这，正是一线伙伴的用武之地。
+有一点得说实话：它全为中文，没有英文版。查询须用确切的中文注册名称或 18 位统一社会信用代码（用英文拼写查不到），而登录验证码是滑块拼图，或"按顺序点选中文字"的测试，且全程中文。多数记录无需账号即可查看，但更深层的备案信息需要中国身份证与人脸识别才能解锁。它是权威来源，却是为已经身在中国的人准备的。而这，正是一线伙伴的用武之地。
 
 ## 下单前如何考察一家工厂
 
