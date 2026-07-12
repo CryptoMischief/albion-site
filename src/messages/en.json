@@ -467,5 +467,12 @@
     "follow": "Follow on LinkedIn",
     "newsletterHeading": "Get the next guide in your inbox.",
     "newsletterBody": "Practical China-sourcing guides, written from the factory floor. No spam, no fluff."
+  },
+  "Proof": {
+    "eyebrow": "See us sourcing",
+    "headline": "Real people, on real factory floors.",
+    "body": "We're not a logo and a contact form. Most weeks we're on the ground in China — meeting the makers, opening the samples, walking the lines your products come off. Anyone can claim it. We'll show you.",
+    "cta": "Meet the team",
+    "follow": "Follow along"
   }
 }
