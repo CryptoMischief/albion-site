@@ -57,6 +57,8 @@ Then verify it. China's official company registry, the National Enterprise Credi
 
 One honest catch: it's entirely in Chinese, with no English version. You search by the exact registered Chinese name or the 18-digit USCC (an English spelling returns nothing), and the sign-in captcha is a slider puzzle or a 'tap these Chinese characters in order' test, in Chinese. Most of a company's record is visible without an account, but the deeper filings sit behind a Chinese ID and face scan. It's the authoritative source, built for people already inside China. Which is exactly what a partner on the ground is for.
 
+There's a quicker, checklist version of all this too: our [5-minute supplier background check](/insights/supplier-background-check).
+
 ## How to vet a factory before you commit
 
 Verifying the paperwork tells you a company is real. It doesn't tell you it can make your product well. For that, work through something like this before you send a penny:
@@ -143,6 +145,8 @@ const ZH_BODY = `多数英国与欧盟买家在中国吃亏，并不是因为选
 
 有一点得说实话：它全为中文，没有英文版。查询须用确切的中文注册名称或 18 位统一社会信用代码（用英文拼写查不到），而登录验证码是滑块拼图，或"按顺序点选中文字"的测试，且全程中文。多数记录无需账号即可查看，但更深层的备案信息需要中国身份证与人脸识别才能解锁。它是权威来源，却是为已经身在中国的人准备的。而这，正是一线伙伴的用武之地。
 
+这套流程还有一个更快的清单版：[5 分钟供应商背景调查](/insights/supplier-background-check)。
+
 ## 下单前如何考察一家工厂
 
 核验文件能告诉您一家公司是真的，却不能告诉您它能把您的产品做好。为此，在付出一分钱之前，不妨走一遍这样的流程：
@@ -199,6 +203,114 @@ const ZH_BODY = `多数英国与欧盟买家在中国吃亏，并不是因为选
 安必隆进出口是一家英国创立、扎根中国的[采购合作伙伴](/services)。一句话概括：我们就站在您产品被制造的地方。我们寻找并核验工厂、研读执照并对照登记系统核查、谈判价格、管理打样与质量控制，并把订单一路盯到生产与发货。
 
 您得到的是中国的价格与规模，以及一位对每个环节负责的英方伙伴——一位能读懂纯中文登记系统、走得进中国工厂车间、在问题还可挽回时就将其发现（而不是等它已在船上）的伙伴。`
+
+const EN_BODY_2 = `A convincing website, an Alibaba Gold Supplier badge, a folder of shiny certificates. None of it proves the company you're about to wire a deposit to actually makes anything, or exists as a factory at all. The quality-inspection specialists at QualityInspection.org put it plainly: being a "gold supplier" on Alibaba doesn't mean much. It's paid placement, not verification.
+
+Most of a real background check, though, takes about five minutes and costs nothing. This is the version we run before we let a client near a new factory, and the exact point it stops working if you're doing it from the UK.
+
+## Start with the business licence
+
+Ask for a colour scan of the company's business licence (营业执照). Every legally registered mainland company has one, and it carries the facts you actually need:
+
+- The **18-digit Unified Social Credit Code (USCC)** at the top, the company's fingerprint across government systems.
+- The **company type** and the **legal representative (法定代表人)**.
+- The **business scope (经营范围)**, which is the tell. A real manufacturer's scope names production or manufacturing (生产 / 制造) of specific goods; a pure trading company's leans on wholesale and trade (批发 / 贸易).
+
+![An example business licence. The 经营范围 field separates a maker from a trader](/insights/img/business-licence-example.jpg)
+
+Then do the check most buyers skip. Make sure the name on the licence matches the name on the quote, the name on the invoice, and the name on the bank account you're asked to pay. That last one catches real scams: a deposit heading to a personal account, a Hong Kong account, or a company with a different name is one of the loudest warnings there is.
+
+## Check the official registry, if you can
+
+Look the company up on China's official registry, GSXT ([gsxt.gov.cn](https://www.gsxt.gov.cn)), by its exact Chinese name or USCC. Confirm the licence details match the live record, and the status reads 存续 / 在营 (active) rather than 注销 / 吊销 (cancelled or revoked).
+
+This is where a UK buyer hits the first wall. GSXT is Chinese-only, the sign-in captcha is a Chinese slider or character puzzle, and the deeper records sit behind a Chinese ID and a face scan. The two databases Chinese agents actually use, 企查查 (Qichacha) and 天眼查 (Tianyancha), are worse for an outsider: both need a Chinese +86 phone number to register and take payment only through Alipay or WeChat Pay. From Britain, you often simply can't run the authoritative check yourself. The English report services that fill the gap start around $30 to $100 a company.
+
+## Prove they've actually shipped something
+
+This is the step almost nobody does, and it's the strongest of the lot. A website and a badge tell you nothing about whether a "factory" has ever exported a single box. Customs shipping records do.
+
+Search the company on [ImportYeti](https://www.importyeti.com). It's free, in English, and built from US customs bill-of-lading data. If the supplier is a genuine exporter, you'll see real shipments leaving China with their name on them, which buyers they ship to, roughly how much, and the product category by HS code. A broker dressed up as a factory, or a shell, shows nothing.
+
+One honest limit: ImportYeti covers US sea imports only. A factory that mostly ships to the UK and Europe may have a thin US record, so an empty result is not proof of a scam. A full, multi-year record, on the other hand, is strong proof they're real. For UK-lane confirmation you'd need a paid global tool.
+
+## The red flags that catch the rest
+
+Most of the remaining tells are behaviour, not paperwork. Dig harder, or walk away, when you see:
+
+- A price 15–20% under everyone else with no explanation. As J.P. Morgan's own vendor-fraud guidance says, if an offer looks too good to be true, it usually is.
+- A free email address (@gmail, @163) instead of a company domain.
+- Specs that quietly change between the quote and the order.
+- A refusal to let you visit unannounced, or to introduce the real factory rather than a sales office.
+- A "factory" whose catalogue somehow covers everything from cookware to electronics.
+
+The international law firm Harris Sliwoski, which has documented China factory scams for years, describes the classic version: a supplier takes a 30% deposit, inflates the order value to push the deposit toward 50%, does no work, and disappears. In a related trick, a buyer pays in full for a discount and receives a container with a thin layer of conforming product over bricks, sand or scrap. The sample was real. The shipment wasn't.
+
+## The video tour isn't the proof it used to be
+
+For years the standard advice was to insist on a live video walk-through of the line. That advice is starting to break. AI-generated "factory tours", with deepfaked faces and voices on a video call, have begun to appear. Treat a video as a good sign, not proof. Pair it with an independent third-party audit, or a real person on the floor. A screen can be faked. A production line, seen in person, cannot.
+
+## Where the five minutes runs out
+
+You can and should do all of the above yourself. It will catch most bad actors before they cost you anything. But three walls remain, and clearing them is the job we do.
+
+The registry that settles the question is Chinese-only and phone-walled. The free shipping data covers the wrong ocean for a UK importer. And no tool tells you that the company you verified on paper is really a rented meeting room, with the production two provinces away. We've turned up to precisely that. As Harris Sliwoski bluntly notes, when a foreign buyer is cheated in China the local police rarely act, so getting your money back is not the plan. Not losing it is.
+
+So we run the full check before a client pays a deposit: the registry in Chinese, the shipping records, the certificates checked with the issuing body, and the part that can't be faked, one of us standing on the factory floor. If you'd rather not spend your evenings fighting a Chinese captcha, that's what we're for. See [how we work](/oem), or start with the [full guide to sourcing from China](/insights/how-to-source-products-from-china).`
+
+const ZH_BODY_2 = `一个精致的网站、一个阿里巴巴"金牌供应商"徽章、一叠漂亮的证书。这些都无法证明您即将打定金过去的那家公司真的在生产什么，甚至无法证明它是不是一家工厂。质检专家网站 QualityInspection.org 说得直白：阿里巴巴上的"金牌供应商"并不说明什么，那是花钱买的位置，而非核验。
+
+不过，一次真正的背景调查，大部分只需约五分钟，且不花一分钱。以下就是我们在让客户接触一家新工厂之前所做的版本，以及当您身在英国时它会在哪一步失灵。
+
+## 从营业执照看起
+
+向对方索取营业执照的彩色扫描件。每一家合法注册的内地公司都有一份，上面就有您真正需要的信息：
+
+- 顶部的 **18 位统一社会信用代码（USCC）**，即这家公司在政府各系统中的"指纹"。
+- **类型**与**法定代表人**。
+- **经营范围**，这是关键判断点。真正制造商的经营范围会写明具体货物的生产 / 制造；纯贸易公司则偏重批发 / 贸易。
+
+![营业执照示例。经营范围一栏，正是分辨真工厂与贸易商的关键](/insights/img/business-licence-example.jpg)
+
+然后做一件多数买家会跳过的核对：确认执照上的名称，与报价上的名称、发票上的名称，以及您被要求付款的银行账户名称一致。最后这一项能揪出真正的骗局：定金流向一个个人账户、一个香港账户，或一家名称不同的公司，都是最响亮的警号之一。
+
+## 在官方登记系统核查，如果你能
+
+在中国官方登记系统 GSXT（[gsxt.gov.cn](https://www.gsxt.gov.cn)）上，用其确切的中文名称或 USCC 查询该公司。核对执照信息与在线记录是否一致，状态是否为存续 / 在营，而非注销 / 吊销。
+
+这里正是英国买家撞上的第一堵墙。GSXT 全为中文，登录验证码是中文滑块或点字测试，而更深层的记录需要中国身份证与人脸识别。中国代理真正在用的两个数据库——企查查与天眼查——对外人更不友好：两者注册都需要中国 +86 手机号，付款也只接受支付宝或微信支付。身在英国，您往往根本无法自己完成这项权威核查。填补这一空缺的英文报告服务，起价约为每家公司 30 到 100 美元。
+
+## 证明他们确实发过货
+
+这一步几乎没人做，却是其中最有力的。网站和徽章无法告诉您一家"工厂"是否真的出口过哪怕一箱货，而海关运输记录可以。
+
+在 [ImportYeti](https://www.importyeti.com) 上搜索该公司。它免费、英文界面，数据来自美国海关的提单记录。如果这家供应商是真正的出口商，您会看到实实在在从中国发出、以其名义申报的货运，看到他们发给哪些买家、大致数量，以及按 HS 编码划分的产品类别。而一个伪装成工厂的贸易商，或一个空壳，则什么都查不到。
+
+老实说有一个局限：ImportYeti 只覆盖美国海运进口。一家主要发往英国与欧洲的工厂，美国记录可能很少，因此查不到并不等于骗局。反过来，一份多年连续的记录，则是他们真实存在的有力证明。若要确认英国航线，则需要付费的全球工具。
+
+## 揪出其余骗子的危险信号
+
+剩下的大多数破绽在于行为，而非文件。出现以下情况，请多加追问，或直接走人：
+
+- 价格比所有人低 15–20% 却没有解释。正如摩根大通（J.P. Morgan）自家的供应商防欺诈指南所言，好到不真实的报价，通常就是不真实。
+- 用免费邮箱（@gmail、@163），而非公司域名邮箱。
+- 规格在报价与下单之间被悄悄改动。
+- 拒绝让您突击到访，或不肯引荐真正的工厂，只给一个销售办公室。
+- 一家"工厂"的产品目录，居然从炊具到电子产品无所不包。
+
+长年记录中国工厂骗局的国际律所 Harris Sliwoski 描述过经典套路：供应商收取 30% 定金，再抬高订单金额把定金比例推向 50%，然后不干活、消失。另一种相关伎俩是：买家为拿折扣全款付清，收到的货柜却是一层合格产品盖在砖块、沙子或废料之上。样品是真的，货不是。
+
+## 视频看厂，已不再是从前的铁证
+
+多年来，标准建议是坚持要一次生产线的实时视频走查。如今这条建议正在失效。由 AI 生成的"工厂视频"——视频通话里深度伪造的面孔与声音——已经开始出现。把视频当作一个好迹象，而非铁证。把它与独立的第三方验厂，或一个真正站在车间里的人配合起来。屏幕可以造假，亲眼所见的生产线不能。
+
+## 五分钟用完之后
+
+上述这些，您都能、也都该自己做。它能在多数坏人让您破财之前就把他们挡住。但仍有三堵墙，跨过它们，就是我们的工作。
+
+那个能一锤定音的登记系统，全为中文且被手机号锁死。免费的运输数据，覆盖的是对英国进口商而言"错的那片海"。而且没有任何工具能告诉您：您在纸面上核验过的公司，其实是一间租来的会议室，生产在两省之外。我们就上门遇到过这种情况。正如 Harris Sliwoski 直言，外国买家在中国被骗时，当地警方鲜少作为——所以把钱追回来不是计划，不把钱丢掉才是。
+
+因此，在客户付定金之前，我们会做完整的核查：用中文查登记系统、查运输记录、向发证机构核实证书，以及那个无法伪造的部分——我们中的一个人，就站在工厂车间里。如果您不想把晚上耗在跟中文验证码搏斗上，这正是我们的用处。看看[我们如何合作](/oem)，或从[中国采购完整指南](/insights/how-to-source-products-from-china)开始。`
 
 export const posts: Post[] = [
   {
@@ -300,6 +412,117 @@ export const posts: Post[] = [
         {
           label: '国家企业信用信息公示系统（gsxt.gov.cn）',
           url: 'https://www.gsxt.gov.cn',
+        },
+      ],
+    },
+  },
+  {
+    slug: 'supplier-background-check',
+    date: '2026-07-12',
+    image: '/insights/img/business-licence-example.jpg',
+    thumb: '/insights/img/bg-check-banner-square.jpg',
+    banner: '/insights/img/bg-check-banner.jpg',
+    imageAlt: {
+      en: 'A Chinese business licence, the document at the heart of a supplier background check',
+      zh: '中国营业执照，供应商背景调查的核心文件',
+    },
+    author: {
+      name: 'Richie',
+      role: {
+        en: 'Founder, Albion Exports · written from our office in Hefei',
+        zh: '创始人，安必隆进出口 · 于合肥办公室撰写',
+      },
+      bio: {
+        en: 'Richie is the British founder of Albion Exports. He lives in Hefei and spends most weeks on factory floors across China, so this comes from the ground, not from a search engine.',
+        zh: 'Richie 是安必隆进出口的英国创始人，常驻合肥，多数时间都在中国各地的工厂车间。以下内容来自一线，而非搜索引擎。',
+      },
+    },
+    title: {
+      en: 'How to check a Chinese supplier is real: a 5-minute background check',
+      zh: '如何核验一家中国供应商是否真实：5 分钟背景调查',
+    },
+    standfirst: {
+      en: 'A slick website proves nothing. Most of a real background check takes five minutes and costs nothing. This is the one we run before a client goes near a new factory.',
+      zh: '精致的网站证明不了什么。真正的背景调查大部分只需五分钟，且分文不花。以下就是我们在客户接触一家新工厂之前所做的那一套。',
+    },
+    excerpt: {
+      en: 'A convincing website and an Alibaba badge don’t prove a factory is real. A free, 5-minute background check for UK & EU buyers: the business licence, the official registry, shipping records, and the red flags most buyers miss.',
+      zh: '精致的网站与阿里巴巴徽章，证明不了一家工厂是真的。这份面向英国与欧盟买家的免费 5 分钟背景调查涵盖：营业执照、官方登记系统、运输记录，以及多数买家会忽略的危险信号。',
+    },
+    body: { en: EN_BODY_2, zh: ZH_BODY_2 },
+    faq: {
+      en: [
+        {
+          q: 'Can I check a Chinese supplier from the UK for free?',
+          a: 'Partly. You can read the business licence and search shipping records on ImportYeti for free. But the official registry (GSXT) and the databases agents use (Qichacha, Tianyancha) are effectively walled off — Chinese-only, and needing a Chinese +86 phone number and Alipay/WeChat Pay. English report services fill the gap from about $30–100 a company.',
+        },
+        {
+          q: 'How do I tell a real factory from a trading company?',
+          a: 'Read the business scope (经营范围) on the licence — a maker’s names production or manufacturing; a trader’s leans on wholesale and trade. Then check ImportYeti to see whether they actually export your product category.',
+        },
+        {
+          q: 'Is an Alibaba Gold Supplier badge a guarantee?',
+          a: 'No. It’s paid placement, not verification. Treat it as marketing and run the licence, registry and shipping-record checks anyway.',
+        },
+        {
+          q: 'They sent me great certificates — am I safe?',
+          a: 'Not necessarily. Certificates, and their QR codes, can be forged. Verify each one directly with the issuing body, and treat any you can’t confirm as if it isn’t there.',
+        },
+        {
+          q: 'Should I still ask for a video factory tour?',
+          a: 'Yes, but don’t treat it as proof. AI-deepfaked factory tours now exist. Pair the video with an independent third-party audit or a person physically on the floor.',
+        },
+      ],
+      zh: [
+        {
+          q: '在英国能免费核查一家中国供应商吗？',
+          a: '部分可以。营业执照与 ImportYeti 上的运输记录都能免费查看。但官方登记系统 GSXT，以及代理常用的企查查、天眼查，实际上把外人挡在门外——全为中文，且需要中国 +86 手机号与支付宝/微信支付。填补空缺的英文报告服务，起价约每家公司 30 到 100 美元。',
+        },
+        {
+          q: '如何分辨真工厂与贸易公司？',
+          a: '看执照上的经营范围——制造商会写明生产 / 制造，贸易商则偏重批发 / 贸易。再用 ImportYeti 查看他们是否真的出口您所需的产品类别。',
+        },
+        {
+          q: '阿里巴巴"金牌供应商"是保证吗？',
+          a: '不是。那是花钱买的位置，而非核验。把它当作营销，照样去做执照、登记系统与运输记录的核查。',
+        },
+        {
+          q: '对方发来了漂亮的证书——我就安全了吗？',
+          a: '未必。证书及其二维码都可能伪造。逐一向发证机构直接核实，凡是无法确认的，就当它不存在。',
+        },
+        {
+          q: '还要不要要求视频看厂？',
+          a: '要，但别把它当铁证。AI 深度伪造的"工厂视频"如今已经出现。把视频与独立第三方验厂，或一个真正站在车间里的人配合起来。',
+        },
+      ],
+    },
+    furtherReading: {
+      en: [
+        {
+          label: 'Harris Sliwoski — China factory scams (China Law Blog)',
+          url: 'https://harris-sliwoski.com/chinalawblog/china-factory-scams/',
+        },
+        {
+          label: 'ImportYeti — free US import shipping records',
+          url: 'https://www.importyeti.com',
+        },
+        {
+          label: 'Import goods into the UK: step by step (GOV.UK)',
+          url: 'https://www.gov.uk/import-goods-into-uk',
+        },
+      ],
+      zh: [
+        {
+          label: 'Harris Sliwoski — 中国工厂骗局（China Law Blog，英文）',
+          url: 'https://harris-sliwoski.com/chinalawblog/china-factory-scams/',
+        },
+        {
+          label: 'ImportYeti — 免费美国进口运输记录（英文）',
+          url: 'https://www.importyeti.com',
+        },
+        {
+          label: '英国进口分步指南（GOV.UK，英文）',
+          url: 'https://www.gov.uk/import-goods-into-uk',
         },
       ],
     },
