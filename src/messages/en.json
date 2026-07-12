@@ -20,7 +20,13 @@
     "sub": "We're your team on the ground in China — verifying factories, negotiating pricing, running quality control and managing production, so you buy safely and efficiently.",
     "ctaPrimary": "Request a quote",
     "ctaSecondary": "What we source",
-    "photoCredit": "Photo: container vessel Houston Express at Hamburg Burchardkai"
+    "photoCredit": "Photo: container vessel Houston Express at Hamburg Burchardkai",
+    "trust": [
+      "15+ years on the ground in China",
+      "A registered, licensed China company",
+      "Every factory checked in person",
+      "Factory-direct pricing, no hidden markup"
+    ]
   },
   "Trust": {
     "title": "Why buyers work with us",
@@ -123,11 +129,17 @@
   },
   "About": {
     "eyebrow": "About",
-    "headline": "A UK-China bridge for global buyers.",
-    "intro": "Albion Exports is a British-owned trading company registered in China. We exist to take the risk out of sourcing from Chinese manufacturers — verifying suppliers in person, handling export, and delivering to buyers across the UK, Europe and beyond.",
+    "headline": "Real people, on the ground in China.",
+    "intro": "Anyone can put a container photo and a contact form on a website. Before you trust a sourcing agent with your money and your name on the box, you should know who is actually on the other end. So this page is exactly that.",
     "story": {
-      "title": "Why we exist",
-      "body": "Buyers want China's price and scale without the risk of unverified suppliers, miscommunication, or shipments that don't match the brief. Albion was founded by a British national resident in Hefei, China — bridging both sides of that conversation. We carry the procurement, verification and export load so our buyers don't have to."
+      "title": "Fifteen years in China, not fifteen days",
+      "paras": [
+        "Albion was started by Richie, a British national who has lived in China for fifteen years. Not visited on buying trips. Lived. He holds Chinese permanent residence, is based in Hefei, and speaks the language.",
+        "Those years weren't spent behind a desk. He built and ran real businesses on the ground: four bars and restaurants over the years, one of which, Ciao Susie's in Hefei, is still open and trading fourteen years on. He's imported craft beer into China too, which teaches you quickly about labelling, cold-chain, shipping, and what to do when a supplier goes quiet the week before a delivery.",
+        "He's a CIM-certified marketer with a degree in philosophy, a native English speaker who holds his own in Chinese, and a trained AI engineer who builds the tools we source with. The point of that mix is simple: someone who understands both the market and the culture, and uses modern tools to outpace a traditional agent.",
+        "In 2026 he co-founded Albion with Richard McGreal. Fifteen years in the country had shown them the same three walls tripping up every foreign buyer: language, trust, and compliance. Albion stands on the China side of all three.",
+        "We're real people, not a virtual office and a landing page. We go to the factories. We meet the brand owners. We check the samples in our own hands, and we tell you what we find, the good and the bad, because a relationship built on spin doesn't survive the first bad container. UK standards for fairness and consistency, applied where your products are actually made. The aim is plain: to become the most trusted export bridge from China to the UK, US and EU."
+      ]
     },
     "facts": {
       "title": "Company facts",
@@ -179,6 +191,9 @@
           "body": "Logistics and distribution lead for the German and wider EU market."
         }
       }
+    },
+    "ground": {
+      "caption": "We go to the factories ourselves — every order, checked where it's made."
     }
   },
   "Services": {

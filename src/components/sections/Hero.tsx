@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { getTranslations } from 'next-intl/server'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Check } from 'lucide-react'
 
 export async function Hero() {
   const t = await getTranslations('Hero')
@@ -62,6 +62,16 @@ export async function Hero() {
                 {t('ctaSecondary')}
               </a>
             </div>
+
+            {/* Real, quantified trust strip */}
+            <ul className="mt-8 flex flex-wrap gap-x-5 gap-y-2.5 text-sm text-white/85">
+              {(t.raw('trust') as string[]).map((item) => (
+                <li key={item} className="inline-flex items-center gap-1.5">
+                  <Check className="size-4 shrink-0 text-emerald-400" />
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

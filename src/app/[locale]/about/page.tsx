@@ -95,13 +95,62 @@ export default async function AboutPage({
       </section>
 
       <section className="border-b border-navy-100 bg-paper">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 sm:py-20">
-          <h2 className="text-2xl font-semibold tracking-tight text-navy-900 sm:text-3xl">
-            {t('story.title')}
-          </h2>
-          <p className="mt-4 text-base leading-relaxed text-mute sm:mt-5 md:text-lg">
-            {t('story.body')}
+        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
+          <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start lg:gap-14">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-sm">
+              <Image
+                src="/about/richie-meeting.jpg"
+                alt="Richie, Albion's founder, meeting a manufacturer on a China trade-show floor"
+                fill
+                sizes="(min-width: 1024px) 38vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl font-semibold tracking-tight text-navy-900 sm:text-3xl">
+                {t('story.title')}
+              </h2>
+              <div className="mt-5 space-y-4">
+                {(t.raw('story.paras') as string[]).map((para, i) => (
+                  <p
+                    key={i}
+                    className="text-base leading-relaxed text-mute md:text-lg"
+                  >
+                    {para}
+                  </p>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* On the ground */}
+      <section className="border-b border-navy-100 bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
+          <p className="max-w-2xl text-lg font-semibold leading-snug tracking-tight text-navy-900 sm:text-xl md:text-2xl">
+            {t('ground.caption')}
           </p>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 sm:gap-5">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-sm">
+              <Image
+                src="/social/li.jpg"
+                alt="Richie checking a product hands-on at a China trade show"
+                fill
+                sizes="(min-width: 640px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-sm">
+              <Image
+                src="/social/ig.jpg"
+                alt="The Albion team visiting a Chinese manufacturer"
+                fill
+                sizes="(min-width: 640px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
