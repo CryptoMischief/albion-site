@@ -244,7 +244,7 @@ Most of the remaining tells are behaviour, not paperwork. Dig harder, or walk aw
 - A refusal to let you visit unannounced, or to introduce the real factory rather than a sales office.
 - A "factory" whose catalogue somehow covers everything from cookware to electronics.
 
-The international law firm Harris Sliwoski, which has documented China factory scams for years, describes the classic version: a supplier takes a 30% deposit, inflates the order value to push the deposit toward 50%, does no work, and disappears. In a related trick, a buyer pays in full for a discount and receives a container with a thin layer of conforming product over bricks, sand or scrap. The sample was real. The shipment wasn't.
+The law firm Harris Sliwoski, which tracks China factory scams, documents the common patterns: a supplier takes a 30% deposit, nudges it toward 50%, then does no work and disappears; or a buyer pays in full for a discount and the container turns up with good product on top and bricks or scrap beneath.
 
 ## The video tour isn't the proof it used to be
 
@@ -298,7 +298,7 @@ const ZH_BODY_2 = `一个精致的网站、一个阿里巴巴"金牌供应商"�
 - 拒绝让您突击到访，或不肯引荐真正的工厂，只给一个销售办公室。
 - 一家"工厂"的产品目录，居然从炊具到电子产品无所不包。
 
-长年记录中国工厂骗局的国际律所 Harris Sliwoski 描述过经典套路：供应商收取 30% 定金，再抬高订单金额把定金比例推向 50%，然后不干活、消失。另一种相关伎俩是：买家为拿折扣全款付清，收到的货柜却是一层合格产品盖在砖块、沙子或废料之上。样品是真的，货不是。
+追踪中国工厂骗局的律所 Harris Sliwoski 记录了常见套路：供应商收取 30% 定金，再设法把比例推向 50%，随后不干活、消失；或者买家为折扣全款付清，货柜到手却是上层为合格产品、下面是砖块或废料。
 
 ## 视频看厂，已不再是从前的铁证
 
@@ -330,8 +330,8 @@ export const posts: Post[] = [
         zh: '创始人，安必隆进出口 · 于合肥办公室撰写',
       },
       bio: {
-        en: 'Richie is the British founder of Albion Exports. He lives in Hefei and spends most weeks on factory floors across China, so this comes from the ground, not from a search engine.',
-        zh: 'Richie 是安必隆进出口的英国创始人，常驻合肥，多数时间都在中国各地的工厂车间。以下内容来自一线，而非搜索引擎。',
+        en: 'Richie is the British founder of Albion Exports. He has lived in China for fifteen years and does this work on the ground, in person. It comes from the factory floor, not a search engine.',
+        zh: 'Richie 是安必隆进出口的英国创始人，在中国生活了十五年，亲力亲为、扎根一线。以下内容来自工厂车间，而非搜索引擎。',
       },
     },
     title: {
@@ -433,8 +433,8 @@ export const posts: Post[] = [
         zh: '创始人，安必隆进出口 · 于合肥办公室撰写',
       },
       bio: {
-        en: 'Richie is the British founder of Albion Exports. He lives in Hefei and spends most weeks on factory floors across China, so this comes from the ground, not from a search engine.',
-        zh: 'Richie 是安必隆进出口的英国创始人，常驻合肥，多数时间都在中国各地的工厂车间。以下内容来自一线，而非搜索引擎。',
+        en: 'Richie is the British founder of Albion Exports. He has lived in China for fifteen years and does this work on the ground, in person. It comes from the factory floor, not a search engine.',
+        zh: 'Richie 是安必隆进出口的英国创始人，在中国生活了十五年，亲力亲为、扎根一线。以下内容来自工厂车间，而非搜索引擎。',
       },
     },
     title: {
