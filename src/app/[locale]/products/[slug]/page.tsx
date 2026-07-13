@@ -4,7 +4,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
 import { ArrowLeft } from 'lucide-react'
-import { BreadcrumbJsonLd, ProductJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 import { ProductDetail } from '@/components/products/ProductDetail'
 import { products, categoryLabels, type Locale } from '@/data/products'
 
@@ -81,11 +81,6 @@ export default async function ProductPage({
             url: `${SITE}/${locale}/products/${product.slug}`,
           },
         ]}
-      />
-      <ProductJsonLd
-        product={product}
-        locale={L}
-        url={`${SITE}/${locale}/products/${product.slug}`}
       />
 
       <section className="border-b border-navy-100 bg-white">
