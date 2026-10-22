@@ -21,10 +21,19 @@ export type ContactResult =
   | { ok: false; error: 'spam' | 'invalid' | 'send_failed' | 'not_configured' }
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY
+
+// Sends from our own verified domain. Resend has DKIM published at
+// resend._domainkey.albionexports.com, so mail from any @albionexports.com
+// address is signed and DMARC-aligned. Never fall back to resend.dev — that is
+// Resend's shared sandbox domain and it has shared sender reputation.
 const FROM_ADDRESS =
-  process.env.CONTACT_FROM_ADDRESS ?? 'Albion Exports <onboarding@resend.dev>'
+  process.env.CONTACT_FROM_ADDRESS ?? 'Albion Exports <hello@albionexports.com>'
+
+// Deliver straight to the mailbox that is actually monitored. Routing enquiries
+// through hello@albionexports.com means depending on Namecheap's forwarding
+// rule staying in place — when it was dropped, every enquiry bounced silently.
 const TO_ADDRESS =
-  process.env.CONTACT_TO_ADDRESS ?? 'hello@albionexports.com'
+  process.env.CONTACT_TO_ADDRESS ?? 'albionexportsltd@gmail.com'
 
 function escape(value: string): string {
   return value.replace(/[<>&]/g, (c) =>
