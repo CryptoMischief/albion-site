@@ -474,5 +474,15 @@
     "body": "We're not a logo and a contact form. We live and work in China — meeting the makers, opening the samples, walking the lines your products come off. In person, every time. Anyone can claim it. We'll show you.",
     "cta": "Meet the team",
     "follow": "Follow along"
+  },
+  "Videos": {
+    "eyebrow": "On YouTube",
+    "headline": "We film what we find.",
+    "body": "Factory floors, trade show aisles, and the products Western buyers haven't seen yet — filmed on the ground in China, not pulled off a supplier's brochure.",
+    "cta": "Visit the channel",
+    "prev": "Previous videos",
+    "next": "More videos",
+    "film": "Film",
+    "short": "Short"
   }
 }

@@ -6,6 +6,7 @@ import { Hero } from '@/components/sections/Hero'
 import { SocialTicker } from '@/components/widgets/SocialTicker'
 import { Trust } from '@/components/sections/Trust'
 import { SeeUsSourcing } from '@/components/sections/SeeUsSourcing'
+import { Videos } from '@/components/sections/Videos'
 import { SourcingNow } from '@/components/sections/SourcingNow'
 import { Scope } from '@/components/sections/Scope'
 import { Process } from '@/components/sections/Process'
@@ -34,6 +35,7 @@ export default async function HomePage({
       <Scope />
       <SourcingNow />
       <SeeUsSourcing />
+      <Videos region={region} />
       <Process />
       <Coverage />
       <Contact />
